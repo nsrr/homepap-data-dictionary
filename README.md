@@ -1,4 +1,4 @@
-homepap-data-dictionary
+HomePAP Data Dictionary
 =======================
 
 HomePAP variables and domains.
