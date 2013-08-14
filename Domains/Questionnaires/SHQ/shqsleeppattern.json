@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "During the last 3 months",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "More than 3 months ago, but less than 1 year ago",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "1 year or more ago",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Following a specific event that occurred",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Not Applicable: It takes me 30 minutes",
+    "description": ""
+  }
+]

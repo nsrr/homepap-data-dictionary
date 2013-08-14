@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "I am not anxious or depressed",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "I am moderately anxious or depressed",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "I am extremely anxious or depressed",
+    "description": ""
+  }
+]

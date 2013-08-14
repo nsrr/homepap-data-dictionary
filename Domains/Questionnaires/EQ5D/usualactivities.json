@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "I have no problems with performing my usual activities",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "I have problems with performing my usual activities",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "I am unable to perform my usual activities",
+    "description": ""
+  }
+]

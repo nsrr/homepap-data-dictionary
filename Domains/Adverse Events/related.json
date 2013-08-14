@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Definite",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Probable",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Possible",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Unlikely",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Unrelated",
+    "description": ""
+  }
+]

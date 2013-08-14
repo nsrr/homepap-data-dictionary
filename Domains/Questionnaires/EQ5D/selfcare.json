@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "I have no problems with self-care",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "I have problems washing or dress myself",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "I am unable to wash or dress myself",
+    "description": ""
+  }
+]

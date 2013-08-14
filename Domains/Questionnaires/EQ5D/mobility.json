@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "I have no problem in walking about",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "I have problem in walking about",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "I am confined to bed",
+    "description": ""
+  }
+]

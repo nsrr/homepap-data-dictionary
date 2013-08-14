@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "None",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "1-2 drinks",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "3-6 drinks",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "7 or more drinks",
+    "description": ""
+  }
+]

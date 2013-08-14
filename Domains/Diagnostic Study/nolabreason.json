@@ -1,0 +1,12 @@
+[
+  {
+    "value": "1",
+    "display_name": "Patient Refused",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Other",
+    "description": ""
+  }
+]

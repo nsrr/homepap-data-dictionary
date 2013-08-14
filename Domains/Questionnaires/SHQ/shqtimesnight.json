@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "4 times or more per night",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "2-3 times per night",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "1 time per night",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "A few times or less per week",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Never or nearly never",
+    "description": ""
+  }
+]
