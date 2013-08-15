@@ -1,0 +1,7 @@
+{
+  "id": "intervene",
+  "display_name": "Seriousness: Required intervention",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

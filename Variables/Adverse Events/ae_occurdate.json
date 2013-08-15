@@ -1,0 +1,6 @@
+{
+  "id": "ae_occurdate",
+  "display_name": "Date Adverse Event Occured",
+  "description": "",
+  "type": "date"
+}

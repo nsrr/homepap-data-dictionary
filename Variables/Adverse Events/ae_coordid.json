@@ -1,0 +1,6 @@
+{
+  "id": "ae_coordid",
+  "display_name": "Administrative information: Coordinator ID",
+  "description": "",
+  "type": "integer"
+}

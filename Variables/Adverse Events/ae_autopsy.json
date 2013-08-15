@@ -1,0 +1,7 @@
+{
+  "id": "ae_autopsy",
+  "display_name": "Outcome: Autopsy preformed",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

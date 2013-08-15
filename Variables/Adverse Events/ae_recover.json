@@ -1,0 +1,7 @@
+{
+  "id": "ae_recover",
+  "display_name": "Outcome: Recovered without sequelae",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

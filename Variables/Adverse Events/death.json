@@ -1,0 +1,7 @@
+{
+  "id": "death",
+  "display_name": "Seriousness: Death",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

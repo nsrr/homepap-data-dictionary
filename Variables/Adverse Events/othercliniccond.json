@@ -1,0 +1,7 @@
+{
+  "id": "othercliniccond",
+  "display_name": "Seriousness: Other clinical condition",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
