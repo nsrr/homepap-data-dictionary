@@ -1,0 +1,6 @@
+{
+  "id": "apt1_avgleak",
+  "display_name": "Average Leak",
+  "description": "",
+  "type": "integer"
+}

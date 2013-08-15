@@ -1,0 +1,6 @@
+{
+  "id": "apt2_compliance",
+  "display_name": "Overall Compliance",
+  "description": "",
+  "type": "integer"
+}

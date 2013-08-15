@@ -1,0 +1,6 @@
+{
+  "id": "apt2_fileend",
+  "display_name": "File interval end",
+  "description": "",
+  "type": "date"
+}

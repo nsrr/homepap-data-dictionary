@@ -1,0 +1,6 @@
+{
+  "id": "apt2_filestart",
+  "display_name": "File interval start",
+  "description": "",
+  "type": "date"
+}

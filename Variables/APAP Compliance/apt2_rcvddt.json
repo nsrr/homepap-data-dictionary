@@ -1,0 +1,6 @@
+{
+  "id": "apt2_rcvddt",
+  "display_name": "Date Received",
+  "description": "",
+  "type": "date"
+}

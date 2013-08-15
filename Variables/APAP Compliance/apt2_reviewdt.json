@@ -1,0 +1,6 @@
+{
+  "id": "apt2_reviewdt",
+  "display_name": "Date Reviewed",
+  "description": "",
+  "type": "date"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "apt2_avgpress",
+  "display_name": "Average 90% Pressure",
+  "description": "",
+  "type": "integer"
+}

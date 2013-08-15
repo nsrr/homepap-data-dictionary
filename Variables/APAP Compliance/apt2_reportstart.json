@@ -1,0 +1,6 @@
+{
+  "id": "apt2_reportstart",
+  "display_name": "Report interval start",
+  "description": "",
+  "type": "date"
+}
