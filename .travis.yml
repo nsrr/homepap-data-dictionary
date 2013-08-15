@@ -1,3 +1,9 @@
 language: ruby
 rvm:
   - 2.0.0
+
+notifications:
+  email:
+    - cailler.michael@gmail.com
+    - nick.testani@yahoo.com
+    - mwidholm@partners.org
