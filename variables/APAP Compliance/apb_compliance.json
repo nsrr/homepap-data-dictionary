@@ -1,4 +1,5 @@
-  "id": "apb_compliance",
+{
+  "id": "apm_compliance",
   "display_name": "Overall Compliance",
   "description": "",
   "type": "numeric"

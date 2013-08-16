@@ -1,4 +1,5 @@
-  "id": "apb_comm",
+{
+  "id": "apm_comm",
   "display_name": "Comments",
   "description": "",
   "type": "string"
