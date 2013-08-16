@@ -1,0 +1,7 @@
+{
+  "id": "cal_d17",
+  "display_name": "Difficulty staying awake trying to watch something",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

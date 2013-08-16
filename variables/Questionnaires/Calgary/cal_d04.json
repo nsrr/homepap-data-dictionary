@@ -1,0 +1,7 @@
+{
+  "id": "cal_d04",
+  "display_name": "Falling asleep at inappropriate times/places",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

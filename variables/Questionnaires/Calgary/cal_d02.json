@@ -1,0 +1,7 @@
+{
+  "id": "cal_d02",
+  "display_name": "Excessive fatigue",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

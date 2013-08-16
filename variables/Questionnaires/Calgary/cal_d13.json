@@ -1,0 +1,7 @@
+{
+  "id": "cal_d13",
+  "display_name": "Waking up more than once per night to urinate",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
