@@ -1,0 +1,7 @@
+{
+  "id": "ap_prsinus",
+  "display_name": "Problem Sinus",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

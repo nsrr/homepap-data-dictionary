@@ -1,0 +1,7 @@
+{
+  "id": "ap_chmask",
+  "display_name": "Changes Made mask type",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

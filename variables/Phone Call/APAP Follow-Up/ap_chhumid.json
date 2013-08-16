@@ -1,0 +1,7 @@
+{
+  "id": "ap_chhumid",
+  "display_name": "Changes Made humidity",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

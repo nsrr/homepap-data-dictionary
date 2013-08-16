@@ -1,0 +1,7 @@
+{
+  "id": "ap_difsetup",
+  "display_name": "Setup Difficulties",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

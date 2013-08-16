@@ -1,0 +1,7 @@
+{
+  "id": "ap_prcong",
+  "display_name": "Problem Nasal Congestion",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

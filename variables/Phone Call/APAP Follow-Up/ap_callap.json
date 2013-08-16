@@ -1,0 +1,7 @@
+{
+  "id": "ap_callap",
+  "display_name": "Call Time am/pm",
+  "description": "",
+  "type": "choices",
+  "domain": "ampm"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ap_prmaskfit",
+  "display_name": "Problem Mask Fit",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ap_prskin",
+  "display_name": "Problem Skin Irritation",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

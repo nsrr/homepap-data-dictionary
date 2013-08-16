@@ -1,0 +1,7 @@
+{
+  "id": "ap_call",
+  "display_name": "Was the call successfully completed?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

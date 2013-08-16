@@ -1,0 +1,7 @@
+{
+  "id": "ap_phntype",
+  "display_name": "Phoneline Type",
+  "description": "",
+  "type": "choices",
+  "domain": "phonetype"
+}
