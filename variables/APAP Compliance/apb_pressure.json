@@ -1,0 +1,6 @@
+{
+  "id": "apb_pressure",
+  "display_name": "PAP Pressure",
+  "description": "",
+  "type": "numeric"
+}

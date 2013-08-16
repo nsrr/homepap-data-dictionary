@@ -1,0 +1,6 @@
+{
+  "id": "apb_nuse",
+  "display_name": "Total nights used",
+  "description": "",
+  "type": "integer"
+}
