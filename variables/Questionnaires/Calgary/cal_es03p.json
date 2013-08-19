@@ -1,0 +1,7 @@
+{
+  "id": "cal_es03p",
+  "display_name": "Symptom 3, problem",
+  "description": "",
+  "type": "choices",
+  "domain": "redcard"
+}

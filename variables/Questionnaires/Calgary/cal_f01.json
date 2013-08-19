@@ -1,0 +1,7 @@
+{
+  "id": "cal_f01",
+  "display_name": "Impact on quality of life due to treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "impact"
+}

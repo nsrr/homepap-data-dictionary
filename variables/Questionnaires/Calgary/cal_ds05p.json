@@ -1,0 +1,7 @@
+{
+  "id": "cal_ds05p",
+  "display_name": "Symptom 5, Problem",
+  "description": "",
+  "type": "choices",
+  "domain": "redcard"
+}

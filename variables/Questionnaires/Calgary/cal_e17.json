@@ -1,0 +1,7 @@
+{
+  "id": "cal_e17",
+  "display_name": "Pain or aching in jaw joint or muscles",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
