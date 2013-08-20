@@ -1,0 +1,7 @@
+{
+  "id": "rx_titrtype",
+  "display_name": "2. Last CPAP Titration Study Type",
+  "description": "",
+  "type": "choices",
+  "domain": "labtype"
+}
