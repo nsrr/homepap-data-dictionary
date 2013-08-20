@@ -1,0 +1,6 @@
+{
+  "id": "rx_titrdate",
+  "display_name": "1. Date Last PAP Titration Study Occured",
+  "description": "",
+  "type": "date"
+}

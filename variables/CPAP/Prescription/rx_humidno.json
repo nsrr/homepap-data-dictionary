@@ -1,0 +1,6 @@
+{
+  "id": "rx_humidno",
+  "display_name": "3b. Humidifier Instrument Serial Number",
+  "description": "",
+  "type": "string"
+}

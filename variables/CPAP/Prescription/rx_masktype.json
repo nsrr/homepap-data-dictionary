@@ -1,0 +1,7 @@
+{
+  "id": "rx_masktype",
+  "display_name": "4a. Mask Type",
+  "description": "",
+  "type": "choices",
+  "domain": "masktype"
+}
