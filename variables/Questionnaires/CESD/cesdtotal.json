@@ -1,0 +1,6 @@
+{
+  "id": "cesdtotal",
+  "display_name": "Total score (Range: 0-30)",
+  "description": "",
+  "type": "numeric"
+}

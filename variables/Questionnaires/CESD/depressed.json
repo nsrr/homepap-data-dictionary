@@ -1,0 +1,7 @@
+{
+  "id": "depressed",
+  "display_name": "Dichotomous Indication of Depression",
+  "description": "",
+  "type": "choices",
+  "domain": "cesddep"
+}
