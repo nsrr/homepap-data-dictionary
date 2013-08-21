@@ -1,0 +1,7 @@
+{
+  "id": "emb_qupwf",
+  "display_name": "Signal Quality: Pleth Wave Form",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

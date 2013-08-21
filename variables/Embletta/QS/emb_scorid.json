@@ -1,0 +1,6 @@
+{
+  "id": "emb_scorid",
+  "display_name": "Scorer ID",
+  "description": "",
+  "type": "integer"
+}

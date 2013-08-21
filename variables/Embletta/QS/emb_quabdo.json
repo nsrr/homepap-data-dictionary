@@ -1,0 +1,7 @@
+{
+  "id": "emb_quabdo",
+  "display_name": "Signal Quality: Abdominal Effort",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

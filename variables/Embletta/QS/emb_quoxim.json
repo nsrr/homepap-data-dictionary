@@ -1,0 +1,7 @@
+{
+  "id": "emb_quoxim",
+  "display_name": "Signal Quality: Oximetry",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

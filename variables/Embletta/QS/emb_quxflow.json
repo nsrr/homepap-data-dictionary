@@ -1,0 +1,7 @@
+{
+  "id": "emb_quxflow",
+  "display_name": "Signal Quality: X-Flow",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

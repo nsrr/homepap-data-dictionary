@@ -1,0 +1,6 @@
+{
+  "id": "emb_reviewdt",
+  "display_name": "Date reviewed",
+  "description": "",
+  "type": "date"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "emb_quchest",
+  "display_name": "Signal Quality: Thoracic Effort",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}
