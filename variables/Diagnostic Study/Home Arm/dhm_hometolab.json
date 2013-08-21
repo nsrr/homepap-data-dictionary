@@ -1,0 +1,7 @@
+{
+  "id": "dhm_hometolab",
+  "display_name": "If final RDI <15 was a lab study done",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

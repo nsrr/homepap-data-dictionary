@@ -1,0 +1,7 @@
+{
+  "id": "dhm_dx2pass",
+  "display_name": "Did the repeat home study pass",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}
