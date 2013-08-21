@@ -1,0 +1,7 @@
+{
+  "id": "demo",
+  "display_name": "Direct demonstration",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

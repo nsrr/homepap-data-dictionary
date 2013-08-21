@@ -1,0 +1,6 @@
+{
+  "id": "dateseen",
+  "display_name": "Date Seen",
+  "description": "",
+  "type": "date"
+}

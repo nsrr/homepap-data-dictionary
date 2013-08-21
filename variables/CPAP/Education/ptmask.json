@@ -1,0 +1,7 @@
+{
+  "id": "ptmask",
+  "display_name": "Patient placed mask on him/herself",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

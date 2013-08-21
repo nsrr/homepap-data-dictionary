@@ -1,0 +1,6 @@
+{
+  "id": "ptmaskmin",
+  "display_name": "Patient placed mask on him/herself (minutes)",
+  "description": "",
+  "type": "numeric"
+}

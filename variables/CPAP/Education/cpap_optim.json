@@ -1,0 +1,7 @@
+{
+  "id": "cpap_optim",
+  "display_name": "Optimism about treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "optimism"
+}

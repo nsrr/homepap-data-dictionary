@@ -1,0 +1,7 @@
+{
+  "id": "ptmirror",
+  "display_name": "Patient viewed mask in mirror",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

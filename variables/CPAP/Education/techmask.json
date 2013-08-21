@@ -1,0 +1,7 @@
+{
+  "id": "techmask",
+  "display_name": "Technician placed mask on patient",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

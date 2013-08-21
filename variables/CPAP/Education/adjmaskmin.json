@@ -1,0 +1,6 @@
+{
+  "id": "adjmaskmin",
+  "display_name": "Technician adjusted mask (minutes)",
+  "description": "",
+  "type": "numeric"
+}
