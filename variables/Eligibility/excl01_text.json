@@ -1,0 +1,6 @@
+{
+  "id": "excl01_text",
+  "display_name": "Exclusion 1: Specify pre-existing diagnosis of sleep apnea",
+  "description": "",
+  "type": "string"
+}

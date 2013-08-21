@@ -1,0 +1,7 @@
+{
+  "id": "sitread",
+  "display_name": "ESS: Sitting and Reading",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}

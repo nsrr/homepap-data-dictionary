@@ -1,0 +1,7 @@
+{
+  "id": "part_status",
+  "display_name": "Participant Status",
+  "description": "",
+  "type": "choices",
+  "domain": "participate"
+}

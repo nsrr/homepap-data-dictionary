@@ -1,0 +1,7 @@
+{
+  "id": "nopartoth",
+  "display_name": "Reason(s) not participating: Other",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

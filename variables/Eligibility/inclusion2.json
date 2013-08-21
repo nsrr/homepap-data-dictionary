@@ -1,0 +1,7 @@
+{
+  "id": "inclusion2",
+  "display_name": "Inclusion 2: ESS score >= 12",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

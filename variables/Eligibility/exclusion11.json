@@ -1,0 +1,7 @@
+{
+  "id": "exclusion11",
+  "display_name": "Exclusion 11: Anticipated upper airway or gastric bypass surgery in the next 4 months",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

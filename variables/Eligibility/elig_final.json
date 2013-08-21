@@ -1,0 +1,7 @@
+{
+  "id": "elig_final",
+  "display_name": "Eligibility Status",
+  "description": "",
+  "type": "choices",
+  "domain": "meets"
+}

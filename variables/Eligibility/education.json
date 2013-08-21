@@ -1,0 +1,7 @@
+{
+  "id": "education",
+  "display_name": "Higest level of Education Completed",
+  "description": "",
+  "type": "choices",
+  "domain": "education"
+}

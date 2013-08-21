@@ -1,0 +1,7 @@
+{
+  "id": "toobusy",
+  "display_name": "Reason(s) not participating: Too busy",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "excl03_text",
+  "display_name": "Exclusion 3: Specify wake oxygen saturation <92%",
+  "description": "",
+  "type": "numeric"
+}

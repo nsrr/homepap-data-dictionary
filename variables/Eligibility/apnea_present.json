@@ -1,0 +1,7 @@
+{
+  "id": "apnea_present",
+  "display_name": "Apnea, Gasping or Choking (>= 3 nights per week)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

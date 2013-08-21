@@ -1,0 +1,7 @@
+{
+  "id": "passeng",
+  "display_name": "ESS: As a Passenger in a Car for an Hour without a Break",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}

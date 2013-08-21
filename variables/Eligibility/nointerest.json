@@ -1,0 +1,7 @@
+{
+  "id": "nointerest",
+  "display_name": "Reason(s) not participating: Not interested",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

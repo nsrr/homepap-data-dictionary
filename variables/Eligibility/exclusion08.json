@@ -1,0 +1,7 @@
+{
+  "id": "exclusion08",
+  "display_name": "Exclusion 8: Severe COPD, restrictive lung disease or supplemental oxygen",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

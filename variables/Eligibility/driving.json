@@ -1,0 +1,7 @@
+{
+  "id": "driving",
+  "display_name": "ESS: In a Car, while Stopped for a Few Minutes in Traffic",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}

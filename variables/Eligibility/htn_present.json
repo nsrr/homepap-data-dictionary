@@ -1,0 +1,7 @@
+{
+  "id": "htn_present",
+  "display_name": "Hypertension (on BP meds and/or SBP >= 140 or DBP >= 90)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

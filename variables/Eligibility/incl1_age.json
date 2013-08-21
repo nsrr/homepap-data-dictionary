@@ -1,0 +1,6 @@
+{
+  "id": "incl1_age",
+  "display_name": "Inclusion 1: 18 years or older; Specify age",
+  "description": "",
+  "type": "integer"
+}

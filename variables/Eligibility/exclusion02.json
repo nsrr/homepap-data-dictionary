@@ -1,0 +1,7 @@
+{
+  "id": "exclusion02",
+  "display_name": "Exclusion 2: Hypoventilation syndrome, identified in medical record",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
