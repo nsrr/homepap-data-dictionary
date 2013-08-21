@@ -1,0 +1,6 @@
+{
+  "id": "napnea",
+  "display_name": "Number of Apnea Events",
+  "description": "",
+  "type": "numeric"
+}

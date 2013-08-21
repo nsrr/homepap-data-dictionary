@@ -1,0 +1,6 @@
+{
+  "id": "time_move",
+  "display_name": "Time in Movement (minutes)",
+  "description": "",
+  "type": "numeric"
+}

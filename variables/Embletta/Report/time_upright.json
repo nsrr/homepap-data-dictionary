@@ -1,0 +1,6 @@
+{
+  "id": "time_upright",
+  "display_name": "Time in Upright position (minutes)",
+  "description": "",
+  "type": "numeric"
+}
