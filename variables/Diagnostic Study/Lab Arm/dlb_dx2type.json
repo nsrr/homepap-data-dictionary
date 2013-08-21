@@ -1,0 +1,7 @@
+{
+  "id": "dlb_dx2type",
+  "display_name": "Type of diagnostic study repeated",
+  "description": "",
+  "type": "choices",
+  "domain": "diagtype"
+}

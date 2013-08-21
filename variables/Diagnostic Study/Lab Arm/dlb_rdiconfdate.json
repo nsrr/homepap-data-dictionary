@@ -1,0 +1,6 @@
+{
+  "id": "dlb_rdiconfdate",
+  "display_name": "Date of final RDI confirmed",
+  "description": "",
+  "type": "date"
+}

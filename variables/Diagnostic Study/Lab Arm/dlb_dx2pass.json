@@ -1,0 +1,7 @@
+{
+  "id": "dlb_dx2pass",
+  "display_name": "Did repeat study pass",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}
