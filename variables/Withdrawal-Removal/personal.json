@@ -1,0 +1,7 @@
+{
+  "id": "personal",
+  "display_name": "Voluntary: Personal Issues",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

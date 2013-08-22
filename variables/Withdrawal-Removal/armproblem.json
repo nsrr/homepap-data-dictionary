@@ -1,0 +1,7 @@
+{
+  "id": "armproblem",
+  "display_name": "Voluntary: Problem with Randomization Arm",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

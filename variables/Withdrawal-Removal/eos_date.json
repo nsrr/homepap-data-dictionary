@@ -1,0 +1,6 @@
+{
+  "id": "eos_date",
+  "display_name": "Date Completed",
+  "description": "",
+  "type": "date"
+}

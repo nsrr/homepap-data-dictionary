@@ -1,0 +1,7 @@
+{
+  "id": "eos_volbusy",
+  "display_name": "Voluntary: Too Busy",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "eos_remlostfu",
+  "display_name": "Administrative: Unable to contact/confirm visits",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

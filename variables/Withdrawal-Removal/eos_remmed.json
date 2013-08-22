@@ -1,0 +1,7 @@
+{
+  "id": "eos_remmed",
+  "display_name": "Administrative: Change in medical conditions (specify)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

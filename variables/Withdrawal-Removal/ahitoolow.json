@@ -1,0 +1,7 @@
+{
+  "id": "ahitoolow",
+  "display_name": "Administrative: AHI too low (<15)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

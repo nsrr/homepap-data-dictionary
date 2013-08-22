@@ -1,0 +1,6 @@
+{
+  "id": "eos_remmed_text",
+  "display_name": "Administrative: Change in medical conditions (specify) (text)",
+  "description": "",
+  "type": "string"
+}

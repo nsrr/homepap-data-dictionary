@@ -1,0 +1,7 @@
+{
+  "id": "condition",
+  "display_name": "Voluntary: Other Medical Condition",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

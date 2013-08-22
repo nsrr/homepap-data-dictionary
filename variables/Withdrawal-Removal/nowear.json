@@ -1,0 +1,7 @@
+{
+  "id": "nowear",
+  "display_name": "Voluntary: Refused Sleep Study or to Wear CPAP",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

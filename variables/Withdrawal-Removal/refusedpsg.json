@@ -1,0 +1,7 @@
+{
+  "id": "refusedpsg",
+  "display_name": "Refused PSG/Titration",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

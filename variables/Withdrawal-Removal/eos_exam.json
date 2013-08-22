@@ -1,0 +1,6 @@
+{
+  "id": "eos_exam",
+  "display_name": "Last Exam Completed",
+  "description": "",
+  "type": "date"
+}
