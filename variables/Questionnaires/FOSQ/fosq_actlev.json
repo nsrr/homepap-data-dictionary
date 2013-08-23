@@ -1,0 +1,6 @@
+{
+  "id": "fosq_actlev",
+  "display_name": "Activity Level Score (Mean of 5, 14-16, and 22-26)",
+  "description": "",
+  "type": "numeric"
+}
