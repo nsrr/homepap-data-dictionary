@@ -2,5 +2,6 @@
   "id": "ae_nopgs7",
   "display_name": "Page numbers 7",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": ""
 }
