@@ -1,0 +1,7 @@
+{
+  "id": "missintoth",
+  "display_name": "Missed interventions/outcomes: Other",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

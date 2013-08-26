@@ -1,0 +1,6 @@
+{
+  "id": "incintrescheddate",
+  "display_name": "Incomplete interventions/outcomes: Assessment(s) rescheduled (date)",
+  "description": "",
+  "type": "date"
+}

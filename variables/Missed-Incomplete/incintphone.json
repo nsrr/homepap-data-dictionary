@@ -1,0 +1,7 @@
+{
+  "id": "incintphone",
+  "display_name": "Incomplete interventions/outcomes: Attempted to collect interview data by phone",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

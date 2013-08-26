@@ -1,0 +1,7 @@
+{
+  "id": "incwhyill",
+  "display_name": "Incomplete reason: Participant ill, unable to complete assessment(s)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

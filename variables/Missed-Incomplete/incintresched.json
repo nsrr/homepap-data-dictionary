@@ -1,0 +1,7 @@
+{
+  "id": "incintresched",
+  "display_name": "Incomplete interventions/outcomes: Assessment(s) rescheduled",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

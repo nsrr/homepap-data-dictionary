@@ -1,0 +1,7 @@
+{
+  "id": "missintresched",
+  "display_name": "Missed interventions/outcomes: Rescheduled study visit",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

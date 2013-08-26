@@ -1,0 +1,7 @@
+{
+  "id": "incwhyleave",
+  "display_name": "Incomplete reason: Participant could not stay for the entire evaluation",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

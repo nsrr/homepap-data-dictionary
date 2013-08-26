@@ -1,0 +1,7 @@
+{
+  "id": "misswhymove",
+  "display_name": "Missed reason; Participant has permanently moved from the area",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}
