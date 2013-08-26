@@ -2,5 +2,6 @@
   "id": "brochuremin",
   "display_name": "Paper materials (minutes)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

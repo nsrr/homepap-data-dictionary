@@ -2,5 +2,6 @@
   "id": "techmaskmin",
   "display_name": "Technician placed mask on patient (minutes)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

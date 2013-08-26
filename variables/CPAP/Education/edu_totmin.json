@@ -2,5 +2,6 @@
   "id": "edu_totmin",
   "display_name": "Total time spent on education",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }
