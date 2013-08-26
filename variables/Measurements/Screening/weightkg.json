@@ -1,0 +1,6 @@
+{
+  "id": "weightkg",
+  "display_name": "Weight (kg)",
+  "description": "",
+  "type": "numeric"
+}
