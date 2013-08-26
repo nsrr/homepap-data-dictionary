@@ -2,5 +2,6 @@
   "id": "dhm_rdilab",
   "display_name": "If Yes lab study done, final repeated RDI",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }
