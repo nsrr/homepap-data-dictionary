@@ -2,5 +2,6 @@
   "id": "pmm3_weightkg",
   "display_name": "Weight (kg)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "kg"
 }

@@ -2,5 +2,6 @@
   "id": "pmbs_waistcm2",
   "display_name": "Waist Circumference: Reading 2 (cm)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "cm"
 }

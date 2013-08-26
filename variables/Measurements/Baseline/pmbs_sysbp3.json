@@ -2,5 +2,6 @@
   "id": "pmbs_sysbp3",
   "display_name": "Blood Pressure: Reading 3: Systolic",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "mmHG"
 }

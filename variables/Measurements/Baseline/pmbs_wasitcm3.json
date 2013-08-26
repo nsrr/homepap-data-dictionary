@@ -2,5 +2,6 @@
   "id": "pmbs_waistcm3",
   "display_name": "Waist Circumference: Reading 3 (cm)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "cm"
 }

@@ -2,5 +2,6 @@
   "id": "pmbs_sysbpmean",
   "display_name": "Systolic Blood Pressure (mean)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "mmHG"
 }

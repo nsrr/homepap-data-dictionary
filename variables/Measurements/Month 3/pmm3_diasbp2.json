@@ -2,5 +2,6 @@
   "id": "pmm3_diasbp2",
   "display_name": "Blood Pressure: Reading 2 (diastolic)",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "mmHG"
 }

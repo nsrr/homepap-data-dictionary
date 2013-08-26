@@ -2,5 +2,6 @@
   "id": "pmbs_neckcm3",
   "display_name": "Neck Circumference: Reading 3 (cm)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "cm"
 }
