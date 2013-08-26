@@ -1,0 +1,7 @@
+{
+  "id": "pmm3_cuffsize",
+  "display_name": "Blood Pressure: Cuff Size",
+  "description": "",
+  "type": "choices",
+  "domain": "cuffsize"
+}
