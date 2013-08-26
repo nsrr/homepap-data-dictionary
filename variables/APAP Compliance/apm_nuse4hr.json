@@ -2,5 +2,6 @@
   "id": "apm_nuse4hr",
   "display_name": "Nights with >= 4 hours used",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "nights"
 }

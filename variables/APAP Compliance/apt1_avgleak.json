@@ -2,5 +2,6 @@
   "id": "apt1_avgleak",
   "display_name": "Average Leak",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "liters/minute"
 }

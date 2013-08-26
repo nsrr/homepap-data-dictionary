@@ -2,5 +2,6 @@
   "id": "apt1_avgpress",
   "display_name": "Average 90% Pressure",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "cmH2O"
 }
