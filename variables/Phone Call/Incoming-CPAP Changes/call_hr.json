@@ -1,0 +1,6 @@
+{
+  "id": "call_hr",
+  "display_name": "Time of Call: Hour",
+  "description": "",
+  "type": "integer"
+}

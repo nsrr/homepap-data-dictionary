@@ -1,0 +1,6 @@
+{
+  "id": "call_date",
+  "display_name": "Date Completed",
+  "description": "",
+  "type": "date"
+}

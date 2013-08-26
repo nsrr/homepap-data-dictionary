@@ -1,0 +1,7 @@
+{
+  "id": "call_slclin",
+  "display_name": "Resolved: Discussed with clinician",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

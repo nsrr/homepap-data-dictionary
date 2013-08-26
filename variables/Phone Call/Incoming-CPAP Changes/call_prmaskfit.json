@@ -1,0 +1,7 @@
+{
+  "id": "call_prmaskfit",
+  "display_name": "Reason: Problem with mask fit",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}
