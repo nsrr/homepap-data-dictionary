@@ -1,0 +1,7 @@
+{
+  "id": "pmm1_armbpsite",
+  "display_name": "Blood Pressure: Arm Blood Pressure Site",
+  "description": "",
+  "type": "choices",
+  "domain": "bpsite"
+}
