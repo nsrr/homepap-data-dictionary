@@ -2,5 +2,6 @@
   "id": "ap_calldur",
   "display_name": "Call Time Duration",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

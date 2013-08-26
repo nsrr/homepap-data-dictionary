@@ -2,5 +2,6 @@
   "id": "ap_callatts",
   "display_name": "Amount of Call Attempts",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "attempts"
 }
