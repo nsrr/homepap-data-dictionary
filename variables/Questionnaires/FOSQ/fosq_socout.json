@@ -2,5 +2,6 @@
   "id": "fosq_socout",
   "display_name": "Social Outcome Score (Mean of 12-13)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

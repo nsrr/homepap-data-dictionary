@@ -2,5 +2,6 @@
   "id": "cal_dmean",
   "display_name": "Symptoms Subscale: Mean Score (0-7)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

@@ -2,5 +2,6 @@
   "id": "cal_anmiss",
   "display_name": "Daily Functioning Subscale; Number of Missing Items",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "items"
 }

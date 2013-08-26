@@ -2,5 +2,6 @@
   "id": "eq5d_health",
   "display_name": "Record Health Scale",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

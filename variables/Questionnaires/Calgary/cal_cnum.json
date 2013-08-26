@@ -2,5 +2,6 @@
   "id": "cal_cnum",
   "display_name": "Emotional Functioning Subscale: Number of Valid Items",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "items"
 }

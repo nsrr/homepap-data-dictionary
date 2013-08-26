@@ -2,5 +2,6 @@
   "id": "eq5d_index",
   "display_name": "Index Score (Range: -0.11 to 1.0)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

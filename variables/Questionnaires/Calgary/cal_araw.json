@@ -2,5 +2,6 @@
   "id": "cal_araw",
   "display_name": "Daily Functioning Subscale; Raw Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

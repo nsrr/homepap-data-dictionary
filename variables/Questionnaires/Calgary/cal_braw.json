@@ -2,5 +2,6 @@
   "id": "cal_braw",
   "display_name": "Social Interactions Subscale: Raw Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

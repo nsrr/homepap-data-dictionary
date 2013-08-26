@@ -2,5 +2,6 @@
   "id": "cal_fweight",
   "display_name": "Impact subscale constant",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": ""
 }

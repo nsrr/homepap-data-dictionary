@@ -2,5 +2,6 @@
   "id": "fosq_vigilin",
   "display_name": "Vigilance Score (Mean of 6-7 and 17-21)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

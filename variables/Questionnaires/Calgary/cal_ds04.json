@@ -2,5 +2,6 @@
   "id": "cal_ds04",
   "display_name": "Symptom 4",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": ""
 }

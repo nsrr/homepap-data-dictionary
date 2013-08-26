@@ -2,5 +2,6 @@
   "id": "cal_anum",
   "display_name": "Daily Functioning Subscale; Number of Valid Items",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "items"
 }
