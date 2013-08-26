@@ -2,5 +2,6 @@
   "id": "incl2_essscore",
   "display_name": "Inclusion 2: ESS score >= 12: Specify ESS Final Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }
