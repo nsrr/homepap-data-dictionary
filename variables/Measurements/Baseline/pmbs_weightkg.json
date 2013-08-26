@@ -1,0 +1,6 @@
+{
+  "id": "pmbs_weightkg",
+  "display_name": "Weight (kg)",
+  "description": "",
+  "type": "numeric"
+}

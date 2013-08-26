@@ -1,0 +1,6 @@
+{
+  "id": "pmbs_sysbp1",
+  "display_name": "Blood Pressure: Reading 1: Systolic",
+  "description": "",
+  "type": "integer"
+}
