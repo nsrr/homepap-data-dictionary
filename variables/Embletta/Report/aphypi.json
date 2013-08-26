@@ -2,5 +2,6 @@
   "id": "aphypi",
   "display_name": "AHI (Apnea + Hypopnea Index)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

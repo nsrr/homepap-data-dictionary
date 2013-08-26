@@ -1,6 +1,7 @@
 {
   "id": "emb_rcrdtimemn",
-  "display_name": "Recording time (mn)",
+  "display_name": "Recording time",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

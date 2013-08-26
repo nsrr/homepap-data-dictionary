@@ -2,5 +2,6 @@
   "id": "napneaa",
   "display_name": "Number of Apnea Events per hour",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

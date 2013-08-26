@@ -1,6 +1,7 @@
 {
   "id": "time_nsupine",
-  "display_name": "Time in Non-supine position (minutes)",
+  "display_name": "Time in Non-supine position",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

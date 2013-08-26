@@ -1,6 +1,7 @@
 {
   "id": "time_upright",
-  "display_name": "Time in Upright position (minutes)",
+  "display_name": "Time in Upright position",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

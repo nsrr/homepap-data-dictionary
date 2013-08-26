@@ -2,5 +2,6 @@
   "id": "desati",
   "display_name": "Number of Oxygen Desaturation Events per hour",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

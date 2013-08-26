@@ -2,5 +2,6 @@
   "id": "maxapnea",
   "display_name": "Longest duration of Apnea Event (seconds)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

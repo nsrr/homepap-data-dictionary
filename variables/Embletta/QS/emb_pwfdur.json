@@ -2,5 +2,6 @@
   "id": "emb_pwfdur",
   "display_name": "Hours of useable signal: Pleth Wave Form",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

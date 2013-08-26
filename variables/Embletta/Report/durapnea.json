@@ -2,5 +2,6 @@
   "id": "durapnea",
   "display_name": "Mean duration of Apnea Events (seconds)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

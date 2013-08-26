@@ -2,5 +2,6 @@
   "id": "ndesat85",
   "display_name": "ndesat85",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events"
 }

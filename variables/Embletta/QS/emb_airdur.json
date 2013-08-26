@@ -2,5 +2,6 @@
   "id": "emb_airdur",
   "display_name": "Hours of usable signal: Airflow",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

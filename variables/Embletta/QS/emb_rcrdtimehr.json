@@ -1,6 +1,7 @@
 {
   "id": "emb_rcrdtimehr",
-  "display_name": "Recording time (hr)",
+  "display_name": "Recording time",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

@@ -2,5 +2,6 @@
   "id": "aphypns",
   "display_name": "Number of Non-supine Apnea + Hypopnea Events",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }
