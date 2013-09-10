@@ -1,0 +1,7 @@
+{
+  "id": "SLPPRD_T",
+  "display_name": "total sleep time (treatment)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA95_D",
+  "display_name": "time below 95% (diagnostic)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

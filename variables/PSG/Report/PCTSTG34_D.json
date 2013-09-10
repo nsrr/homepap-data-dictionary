@@ -1,0 +1,7 @@
+{
+  "id": "PCTSTG34_D",
+  "display_name": "% sleep time stage 3 (diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "SLPEFF_T",
+  "display_name": "sleep efficiency (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

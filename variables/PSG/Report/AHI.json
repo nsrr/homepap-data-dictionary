@@ -1,0 +1,7 @@
+{
+  "id": "AHI",
+  "display_name": "AHI",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "AI",
+  "display_name": "Arousal Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

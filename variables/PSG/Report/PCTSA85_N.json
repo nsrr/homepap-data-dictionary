@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA85_N",
+  "display_name": "time below 85% (entire night)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

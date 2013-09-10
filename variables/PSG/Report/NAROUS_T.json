@@ -1,0 +1,7 @@
+{
+  "id": "NAROUS_T",
+  "display_name": "total number of arousals (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "MINREM_N",
+  "display_name": "total time stage REM (entire night)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

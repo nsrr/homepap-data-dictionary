@@ -1,0 +1,7 @@
+{
+  "id": "MINSAO2_T",
+  "display_name": "Minimum spO2 (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

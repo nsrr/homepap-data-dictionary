@@ -1,0 +1,7 @@
+{
+  "id": "AVGPLM",
+  "display_name": "PLM Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

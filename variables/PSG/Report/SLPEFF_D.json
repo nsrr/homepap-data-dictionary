@@ -1,0 +1,7 @@
+{
+  "id": "SLPEFF_D",
+  "display_name": "sleep efficiency (diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

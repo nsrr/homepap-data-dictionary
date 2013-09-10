@@ -1,0 +1,7 @@
+{
+  "id": "AVGSAO2_D",
+  "display_name": "Mean spO2 (diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

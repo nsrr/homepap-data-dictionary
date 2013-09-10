@@ -1,0 +1,7 @@
+{
+  "id": "PCTSTG1_N",
+  "display_name": "% sleep time stage 1(entire night)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "NDES4_N",
+  "display_name": "number of desat events >= 4% (entire night)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

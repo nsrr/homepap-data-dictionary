@@ -1,0 +1,7 @@
+{
+  "id": "AVSAO2NH",
+  "display_name": "average saO2 in NREM",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA75_N",
+  "display_name": "time below 75% (entire night)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

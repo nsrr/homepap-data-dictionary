@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA90_T",
+  "display_name": "time below 90% (treatment)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

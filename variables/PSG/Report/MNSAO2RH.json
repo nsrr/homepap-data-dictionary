@@ -1,0 +1,7 @@
+{
+  "id": "MNSAO2RH",
+  "display_name": "minimum saO2 in REM",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

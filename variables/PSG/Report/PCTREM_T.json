@@ -1,0 +1,7 @@
+{
+  "id": "PCTREM_T",
+  "display_name": "% sleep time stage REM (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

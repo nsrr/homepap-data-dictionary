@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA85_T",
+  "display_name": "time below 85% (treatment)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

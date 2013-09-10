@@ -1,0 +1,7 @@
+{
+  "id": "STDURM_N",
+  "display_name": "total recording time (entire night)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

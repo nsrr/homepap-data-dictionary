@@ -1,0 +1,7 @@
+{
+  "id": "AVGNADIR_D",
+  "display_name": "Mean spO2 desaturation (diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

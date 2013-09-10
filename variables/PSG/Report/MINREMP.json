@@ -1,0 +1,7 @@
+{
+  "id": "MINREMP",
+  "display_name": "minutes in REM",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

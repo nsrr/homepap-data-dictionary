@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA75H",
+  "display_name": "% time with SaO2 <75",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

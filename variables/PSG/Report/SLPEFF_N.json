@@ -1,0 +1,7 @@
+{
+  "id": "SLPEFF_N",
+  "display_name": "sleep efficiency(entire night)",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}

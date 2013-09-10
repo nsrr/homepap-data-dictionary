@@ -1,0 +1,7 @@
+{
+  "id": "CAI",
+  "display_name": "Central Apnea Index (# of central apneas per hr of sleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

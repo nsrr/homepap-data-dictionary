@@ -1,0 +1,7 @@
+{
+  "id": "NDES5_T",
+  "display_name": "number of desat events >= 5% (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

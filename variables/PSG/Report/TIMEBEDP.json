@@ -1,0 +1,7 @@
+{
+  "id": "TIMEBEDP",
+  "display_name": "Total Time in bed",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

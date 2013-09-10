@@ -1,0 +1,7 @@
+{
+  "id": "MINREM_T",
+  "display_name": "total time stage REM (treatment)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

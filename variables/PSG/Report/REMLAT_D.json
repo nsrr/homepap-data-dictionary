@@ -1,0 +1,7 @@
+{
+  "id": "REMLAT_D",
+  "display_name": "Latency to REM onset (diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

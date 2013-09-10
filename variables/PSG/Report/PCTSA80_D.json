@@ -1,0 +1,7 @@
+{
+  "id": "PCTSA80_D",
+  "display_name": "time below 80% (diagnostic)(minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

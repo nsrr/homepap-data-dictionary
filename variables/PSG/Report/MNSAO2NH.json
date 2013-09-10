@@ -1,0 +1,7 @@
+{
+  "id": "MNSAO2NH",
+  "display_name": "minimum saO2 in NREM",
+  "description": "",
+  "type": "numeric",
+  "units": "%"
+}
