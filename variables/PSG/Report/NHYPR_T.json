@@ -1,0 +1,7 @@
+{
+  "id": "NHYPR_T",
+  "display_name": "Number of hypopneas in REM (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

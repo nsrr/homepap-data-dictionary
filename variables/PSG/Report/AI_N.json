@@ -1,0 +1,7 @@
+{
+  "id": "AI_N",
+  "display_name": "overall arousal index (entire night)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

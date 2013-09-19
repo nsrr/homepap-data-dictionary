@@ -1,0 +1,7 @@
+{
+  "id": "NLIMB_N",
+  "display_name": "total number of limb momvements (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "movements"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "LMI_N",
+  "display_name": "overall limb movement index (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

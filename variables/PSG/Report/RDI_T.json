@@ -1,0 +1,7 @@
+{
+  "id": "RDI_T",
+  "display_name": "overall RDI (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "events per hour"
+}

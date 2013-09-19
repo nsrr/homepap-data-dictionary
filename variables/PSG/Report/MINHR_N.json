@@ -1,0 +1,7 @@
+{
+  "id": "MINHR_N",
+  "display_name": "minimum heart rate (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}

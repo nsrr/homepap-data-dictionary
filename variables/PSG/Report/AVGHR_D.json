@@ -1,0 +1,7 @@
+{
+  "id": "AVGHR_D",
+  "display_name": "average heart rate (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}

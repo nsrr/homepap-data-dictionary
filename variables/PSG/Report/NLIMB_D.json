@@ -1,0 +1,7 @@
+{
+  "id": "NLIMB_D",
+  "display_name": "total number of limb momvements (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "movements"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "NOA_T",
+  "display_name": "Number of obstructive apneas (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

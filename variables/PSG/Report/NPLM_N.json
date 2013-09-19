@@ -1,0 +1,7 @@
+{
+  "id": "NPLM_N",
+  "display_name": "total number of PLM (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

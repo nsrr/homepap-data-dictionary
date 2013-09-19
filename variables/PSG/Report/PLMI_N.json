@@ -1,0 +1,7 @@
+{
+  "id": "PLMI_N",
+  "display_name": "PLM index (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

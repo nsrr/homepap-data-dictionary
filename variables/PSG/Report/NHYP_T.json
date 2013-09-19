@@ -1,0 +1,7 @@
+{
+  "id": "NHYP_T",
+  "display_name": "Number of hypopneas (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "NHYP_D",
+  "display_name": "Number of hypopneas (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

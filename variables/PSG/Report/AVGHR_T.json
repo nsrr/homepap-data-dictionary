@@ -1,0 +1,7 @@
+{
+  "id": "AVGHR_T",
+  "display_name": "average heart rate (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CPAPSTM4",
+  "display_name": "Duration sleep time - time 4",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

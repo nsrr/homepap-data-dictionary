@@ -1,0 +1,7 @@
+{
+  "id": "NCANR_T",
+  "display_name": "Number of central apneas in NREM (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

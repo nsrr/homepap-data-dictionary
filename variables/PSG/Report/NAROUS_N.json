@@ -1,0 +1,7 @@
+{
+  "id": "NAROUS_N",
+  "display_name": "total number of arousals (entire night)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

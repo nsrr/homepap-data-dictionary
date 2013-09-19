@@ -1,0 +1,7 @@
+{
+  "id": "PLMI_T",
+  "display_name": "PLM index (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "NOAR_D",
+  "display_name": "Number of obstructive apneas in REM (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

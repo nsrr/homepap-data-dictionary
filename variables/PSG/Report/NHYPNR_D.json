@@ -1,0 +1,7 @@
+{
+  "id": "NHYPNR_D",
+  "display_name": "Number of hypopneas in NREM (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

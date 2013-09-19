@@ -1,0 +1,7 @@
+{
+  "id": "NOAR_T",
+  "display_name": "Number of obstructive apneas in REM (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "apneas"
+}

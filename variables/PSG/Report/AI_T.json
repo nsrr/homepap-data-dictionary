@@ -1,0 +1,7 @@
+{
+  "id": "AI_T",
+  "display_name": "overall arousal index (treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "events"
+}

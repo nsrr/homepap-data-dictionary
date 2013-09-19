@@ -1,0 +1,7 @@
+{
+  "id": "MAXHR_T",
+  "display_name": "maximum heart rate (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}

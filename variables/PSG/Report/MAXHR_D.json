@@ -1,0 +1,7 @@
+{
+  "id": "MAXHR_D",
+  "display_name": "maximum heart rate (diagnostic)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "LMI_T",
+  "display_name": "overall limb movement index (treatment)",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

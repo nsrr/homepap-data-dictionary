@@ -1,0 +1,7 @@
+{
+  "id": "MAXHR_N",
+  "display_name": "maximum heart rate (entire night)",
+  "description": "",
+  "type": "integer",
+  "units": "bpm"
+}
