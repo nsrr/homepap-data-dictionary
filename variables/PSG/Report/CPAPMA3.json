@@ -3,5 +3,5 @@
   "display_name": "No. mixed apneas - time 3",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }

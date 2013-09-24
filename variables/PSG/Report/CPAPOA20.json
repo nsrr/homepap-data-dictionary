@@ -1,0 +1,7 @@
+{
+  "id": "CPAPOA20",
+  "display_name": "No. of obstructive apneas-time 20",
+  "description": "",
+  "type": "integer",
+  "units": "events"
+}

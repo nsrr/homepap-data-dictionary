@@ -3,5 +3,5 @@
   "display_name": "No. of obstructive apneas-time 1",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }

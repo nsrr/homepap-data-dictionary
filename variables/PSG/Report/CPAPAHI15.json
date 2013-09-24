@@ -1,0 +1,7 @@
+{
+  "id": "CPAPAHI15",
+  "display_name": "AHI-time 15",
+  "description": "",
+  "type": "integer",
+  "units": "events per hour"
+}

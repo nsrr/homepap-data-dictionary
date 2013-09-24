@@ -3,5 +3,5 @@
   "display_name": "No. hyponeas-time 1",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }
