@@ -1,0 +1,7 @@
+{
+  "id": "psg_bedtimehr",
+  "display_name": "Total time in bed (hrs)",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "psg_snordur",
+  "display_name": "Hours of usable signal: Snore Mic",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

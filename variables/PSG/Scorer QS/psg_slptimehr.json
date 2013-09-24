@@ -1,0 +1,7 @@
+{
+  "id": "psg_slptimehr",
+  "display_name": "Total sleep time (hrs)",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

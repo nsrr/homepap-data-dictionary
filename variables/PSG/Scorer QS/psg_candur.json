@@ -1,0 +1,7 @@
+{
+  "id": "psg_candur",
+  "display_name": "Hours of usable signal: Cannula Flow",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

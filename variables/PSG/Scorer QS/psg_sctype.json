@@ -1,0 +1,7 @@
+{
+  "id": "psg_sctype",
+  "display_name": "Type of study (QS)",
+  "description": "",
+  "type": "choices",
+  "domain": "studytype"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "psg_chestdur",
+  "display_name": "Hours of usable signal: Thoracic",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

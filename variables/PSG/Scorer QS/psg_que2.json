@@ -1,0 +1,7 @@
+{
+  "id": "psg_que2",
+  "display_name": "Signal Quality: E2",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

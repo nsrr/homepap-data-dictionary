@@ -1,0 +1,7 @@
+{
+  "id": "psg_e2dur",
+  "display_name": "Hours of usable signal: E2",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "psg_sumdur",
+  "display_name": "Hours of usable signal: Sum",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

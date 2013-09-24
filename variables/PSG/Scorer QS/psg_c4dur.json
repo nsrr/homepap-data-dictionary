@@ -1,0 +1,7 @@
+{
+  "id": "psg_c4dur",
+  "display_name": "Hours of usable signal: C4",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}
