@@ -1,7 +1,0 @@
-{
-  "id": "psg_airdur",
-  "display_name": "Hours of usable signal: Airflow",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

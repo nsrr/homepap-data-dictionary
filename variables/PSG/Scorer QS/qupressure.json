@@ -1,0 +1,7 @@
+{
+  "id": "qupressure",
+  "display_name": "Signal Quality: CPAP Pressure",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

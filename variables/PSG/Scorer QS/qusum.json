@@ -1,0 +1,7 @@
+{
+  "id": "qusum",
+  "display_name": "Signal Quality: Sum",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

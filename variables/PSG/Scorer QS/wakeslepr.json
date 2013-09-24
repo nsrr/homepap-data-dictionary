@@ -1,0 +1,7 @@
+{
+  "id": "wakeslepr",
+  "display_name": "Sleep Staging Problem- scoring wake/sleep unreliable",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

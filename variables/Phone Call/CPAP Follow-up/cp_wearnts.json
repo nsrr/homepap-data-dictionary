@@ -1,0 +1,7 @@
+{
+  "id": "cp_wearnts",
+  "display_name": "times worse CPAP at night",
+  "description": "",
+  "type": "integer",
+  "units": "nights"
+}

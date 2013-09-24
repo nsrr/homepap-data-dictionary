@@ -1,0 +1,7 @@
+{
+  "id": "cp_prmaskfit",
+  "display_name": "problems addressed mask fit",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

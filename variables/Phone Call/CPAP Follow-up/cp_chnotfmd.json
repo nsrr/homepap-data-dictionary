@@ -1,0 +1,7 @@
+{
+  "id": "cp_chnotfmd",
+  "display_name": "changes made notify physician",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

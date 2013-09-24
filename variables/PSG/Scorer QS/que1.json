@@ -1,0 +1,7 @@
+{
+  "id": "que1",
+  "display_name": "Signal Quality: E1",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

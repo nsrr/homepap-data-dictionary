@@ -1,0 +1,7 @@
+{
+  "id": "cp_calldur",
+  "display_name": "Total amount of time spent on call",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

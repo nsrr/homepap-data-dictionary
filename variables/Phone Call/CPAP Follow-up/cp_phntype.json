@@ -1,0 +1,7 @@
+{
+  "id": "cp_phntype",
+  "display_name": "type of phone line",
+  "description": "",
+  "type": "choices",
+  "domain": "phonetype"
+}

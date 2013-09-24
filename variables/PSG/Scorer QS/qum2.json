@@ -1,0 +1,7 @@
+{
+  "id": "qum2",
+  "display_name": "Signal Quality: M2",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

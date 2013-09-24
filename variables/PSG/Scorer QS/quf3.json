@@ -1,0 +1,7 @@
+{
+  "id": "quf3",
+  "display_name": "Signal Quality: F3",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

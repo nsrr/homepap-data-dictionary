@@ -1,0 +1,7 @@
+{
+  "id": "quflow",
+  "display_name": "Signal Quality: PAP Flow",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "overall",
+  "display_name": "Overall study quality grade",
+  "description": "",
+  "type": "choices",
+  "domain": "psgqual"
+}

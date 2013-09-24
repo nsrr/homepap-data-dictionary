@@ -1,0 +1,7 @@
+{
+  "id": "abnoreeg",
+  "display_name": "Unusual Occurrences- Abnormal EEG",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

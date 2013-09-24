@@ -1,7 +1,0 @@
-{
-  "id": "psg_quo1",
-  "display_name": "Signal Quality: O1",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

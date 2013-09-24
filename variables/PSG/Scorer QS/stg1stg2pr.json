@@ -1,0 +1,7 @@
+{
+  "id": "stg1stg2pr",
+  "display_name": "Sleep Staging Problem- scoring stage1/stage2 unreliagble",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

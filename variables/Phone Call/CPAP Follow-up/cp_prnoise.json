@@ -1,0 +1,7 @@
+{
+  "id": "cp_prnoise",
+  "display_name": "problems addressed noise",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "psg_quemg",
-  "display_name": "Signal Quality: EMG",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

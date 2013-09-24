@@ -1,0 +1,7 @@
+{
+  "id": "flowdur",
+  "display_name": "Hours of usable signal: PAP Flow",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

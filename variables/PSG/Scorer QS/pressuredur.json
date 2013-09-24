@@ -1,0 +1,7 @@
+{
+  "id": "pressuredur",
+  "display_name": "Hours of usable signal: CPAP Pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

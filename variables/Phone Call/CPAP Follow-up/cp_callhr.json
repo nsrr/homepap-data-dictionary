@@ -1,0 +1,7 @@
+{
+  "id": "cp_callhr",
+  "display_name": "Time call began: Hour",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

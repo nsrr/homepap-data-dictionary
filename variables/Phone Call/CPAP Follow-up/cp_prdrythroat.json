@@ -1,0 +1,7 @@
+{
+  "id": "cp_prdrythroat",
+  "display_name": "problems addressed throat dryness",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

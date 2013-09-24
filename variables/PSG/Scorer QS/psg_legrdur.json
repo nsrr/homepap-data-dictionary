@@ -1,7 +1,0 @@
-{
-  "id": "psg_legrdur",
-  "display_name": "Hours of usable signal: Right Leg",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

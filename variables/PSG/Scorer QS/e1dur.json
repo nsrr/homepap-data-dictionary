@@ -1,0 +1,7 @@
+{
+  "id": "e1dur",
+  "display_name": "Hours of usable signal: E1",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cp_chchstrap",
+  "display_name": "changes made chin strap",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

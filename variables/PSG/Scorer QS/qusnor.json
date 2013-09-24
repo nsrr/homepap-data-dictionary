@@ -1,0 +1,7 @@
+{
+  "id": "qusnor",
+  "display_name": "Signal Quality: Snore Mic",
+  "description": "",
+  "type": "choices",
+  "domain": "pctestsleep"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cp_call",
+  "display_name": "Was the call sucessfully completed?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
