@@ -1,0 +1,7 @@
+{
+  "id": "psgrdi_rdis_type",
+  "display_name": "Supine RDI or AHI",
+  "description": "",
+  "type": "choices",
+  "domain": "rdiahi"
+}
