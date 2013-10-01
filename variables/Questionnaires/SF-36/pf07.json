@@ -1,0 +1,7 @@
+{
+  "id": "pf07",
+  "display_name": "SF-36: Typical day: Walking more than a mile",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36limit"
+}

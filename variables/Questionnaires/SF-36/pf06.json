@@ -1,0 +1,7 @@
+{
+  "id": "pf06",
+  "display_name": "SF-36: Typical day: Bending, kneeling, or stooping",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36limit"
+}

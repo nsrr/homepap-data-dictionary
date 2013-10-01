@@ -1,0 +1,7 @@
+{
+  "id": "rp03",
+  "display_name": "SF-36: Problem due to physical health: Limited in kind of work",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

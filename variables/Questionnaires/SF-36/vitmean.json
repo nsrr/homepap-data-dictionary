@@ -1,0 +1,7 @@
+{
+  "id": "vitmean",
+  "display_name": "SF-36: Vitality Scale (mean of items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

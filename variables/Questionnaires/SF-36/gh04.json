@@ -1,0 +1,7 @@
+{
+  "id": "gh04",
+  "display_name": "SF-36: True/False: Expect health to get worse",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36false"
+}

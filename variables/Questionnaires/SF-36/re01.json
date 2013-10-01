@@ -1,0 +1,7 @@
+{
+  "id": "re01",
+  "display_name": "SF-36: Problem due to emotional health: Cut down on work or activites",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

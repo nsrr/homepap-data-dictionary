@@ -1,0 +1,7 @@
+{
+  "id": "rolpmean",
+  "display_name": "SF-36: Role-Physical Scale (mean of items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "rolmnum",
+  "display_name": "SF-36: Role-Emotional Scale (# of valid items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

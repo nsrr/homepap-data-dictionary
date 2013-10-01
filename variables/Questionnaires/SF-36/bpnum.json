@@ -1,0 +1,7 @@
+{
+  "id": "bpnum",
+  "display_name": "SF-36: Bodily Pain Scale (# of valid items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

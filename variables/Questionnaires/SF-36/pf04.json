@@ -1,0 +1,7 @@
+{
+  "id": "pf04",
+  "display_name": "SF-36: Typical day: Climbing several flights of stairs",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36limit"
+}

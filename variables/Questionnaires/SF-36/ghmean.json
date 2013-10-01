@@ -1,0 +1,7 @@
+{
+  "id": "ghmean",
+  "display_name": "SF-36: General Health Perception Scale (mean of items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

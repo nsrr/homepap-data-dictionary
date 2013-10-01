@@ -1,0 +1,7 @@
+{
+  "id": "mh01",
+  "display_name": "SF-36: Past 4 weeks: Been very nervous",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sf02",
+  "display_name": "SF-36: Amount of time physical/emotional problems interfered",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

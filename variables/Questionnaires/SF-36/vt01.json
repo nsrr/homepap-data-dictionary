@@ -1,0 +1,7 @@
+{
+  "id": "vt01",
+  "display_name": "SF-36: Past 4 weeks: Feel full of life",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

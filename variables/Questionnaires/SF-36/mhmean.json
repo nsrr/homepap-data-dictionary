@@ -1,0 +1,7 @@
+{
+  "id": "mhmean",
+  "display_name": "SF-36: Mental Heatlth Scale (#mean of items)",
+  "description": "",
+  "type": "integer",
+  "units": "items"
+}

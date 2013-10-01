@@ -1,0 +1,7 @@
+{
+  "id": "mh05",
+  "display_name": "SF-36: Past 4 weeks: Been happy",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "pf01",
+  "display_name": "SF-36: Typical day: Vigorous activities",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36limit"
+}

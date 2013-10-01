@@ -1,0 +1,7 @@
+{
+  "id": "gh02",
+  "display_name": "SF-36: True/False: Get sick easier than other people",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36false"
+}
