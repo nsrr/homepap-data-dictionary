@@ -1,0 +1,7 @@
+{
+  "id": "titration_minopt",
+  "display_name": "Titration: time at optimal pressure (minutes)",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}
