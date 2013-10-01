@@ -1,0 +1,7 @@
+{
+  "id": "insv",
+  "display_name": "Has Signal Verification Form",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
