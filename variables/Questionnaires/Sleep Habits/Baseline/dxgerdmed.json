@@ -1,0 +1,7 @@
+{
+  "id": "dxgerdmed",
+  "display_name": "Sleep-Baseline: Diagnosed: GERD, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

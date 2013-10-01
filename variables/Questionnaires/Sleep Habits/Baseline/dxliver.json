@@ -1,0 +1,7 @@
+{
+  "id": "dxliver",
+  "display_name": "Sleep-Baseline: Diagnosed: Liver Disease",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

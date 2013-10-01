@@ -1,0 +1,7 @@
+{
+  "id": "dxstrokemed",
+  "display_name": "Sleep-Baseline: Diagnosed: Stroke, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

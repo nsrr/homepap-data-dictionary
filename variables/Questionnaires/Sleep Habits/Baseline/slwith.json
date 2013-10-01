@@ -1,0 +1,7 @@
+{
+  "id": "slwith",
+  "display_name": "Sleep-Baseline: Sleep with another person",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

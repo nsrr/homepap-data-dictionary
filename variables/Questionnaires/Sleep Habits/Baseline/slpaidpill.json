@@ -1,0 +1,7 @@
+{
+  "id": "slpaidpill",
+  "display_name": "Sleep-Baseline: Used sleeping pills for sleep",
+  "description": "",
+  "type": "choices",
+  "domain": "selected"
+}

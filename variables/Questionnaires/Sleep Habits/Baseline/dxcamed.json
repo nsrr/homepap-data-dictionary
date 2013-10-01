@@ -1,0 +1,7 @@
+{
+  "id": "dxcamed",
+  "display_name": "Sleep-Baseline: Diagnosed: Cancer, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

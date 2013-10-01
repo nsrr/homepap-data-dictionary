@@ -1,0 +1,7 @@
+{
+  "id": "weslmn",
+  "display_name": "Sleep-Baseline: Hours actually slept, weekend: Minutes",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

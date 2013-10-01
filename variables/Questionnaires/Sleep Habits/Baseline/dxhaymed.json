@@ -1,0 +1,7 @@
+{
+  "id": "dxhaymed",
+  "display_name": "Sleep-Baseline: Diagnosed: Hay Fever, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

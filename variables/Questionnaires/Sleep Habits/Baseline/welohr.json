@@ -1,0 +1,7 @@
+{
+  "id": "welohr",
+  "display_name": "Sleep-Baseline: Lights out, weekend: Hour",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

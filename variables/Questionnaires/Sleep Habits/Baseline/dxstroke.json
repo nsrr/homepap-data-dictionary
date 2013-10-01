@@ -1,0 +1,7 @@
+{
+  "id": "dxstroke",
+  "display_name": "Sleep-Baseline: Diagnosed: Stroke",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

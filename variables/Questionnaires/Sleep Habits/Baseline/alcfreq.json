@@ -1,0 +1,7 @@
+{
+  "id": "alcfreq",
+  "display_name": "Sleep-Baseline: Used alcohol for sleep, how often",
+  "description": "",
+  "type": "choices",
+  "domain": "shqtimesweek"
+}

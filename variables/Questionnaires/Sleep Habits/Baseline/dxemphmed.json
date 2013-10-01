@@ -1,0 +1,7 @@
+{
+  "id": "dxemphmed",
+  "display_name": "Sleep-Baseline: Diagnosed: Emphysema, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

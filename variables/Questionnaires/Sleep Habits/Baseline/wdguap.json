@@ -1,0 +1,7 @@
+{
+  "id": "wdguap",
+  "display_name": "Sleep-Baseline: Get out of bed, weekdays: AM/PM",
+  "description": "",
+  "type": "choices",
+  "domain": "ampm"
+}

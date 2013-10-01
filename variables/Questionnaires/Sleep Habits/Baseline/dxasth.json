@@ -1,0 +1,7 @@
+{
+  "id": "dxasth",
+  "display_name": "Sleep-Baseline: Diagnosed: Asthma",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

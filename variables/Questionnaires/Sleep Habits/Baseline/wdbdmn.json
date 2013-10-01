@@ -1,0 +1,7 @@
+{
+  "id": "wdbdmn",
+  "display_name": "Sleep-Baseline: Get into bed, weekday: Minutes",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

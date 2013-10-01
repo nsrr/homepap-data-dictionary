@@ -1,0 +1,7 @@
+{
+  "id": "medantihisfq",
+  "display_name": "Sleep-Baseline: Medication: Antihistamines, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}

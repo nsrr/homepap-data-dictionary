@@ -1,0 +1,7 @@
+{
+  "id": "dxasthmed",
+  "display_name": "Sleep-Baseline: Diagnosed: Asthma, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

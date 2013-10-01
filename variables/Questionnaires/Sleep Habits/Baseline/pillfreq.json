@@ -1,0 +1,7 @@
+{
+  "id": "pillfreq",
+  "display_name": "Sleep-Baseline: Used sleeping pills for sleep, how often",
+  "description": "",
+  "type": "choices",
+  "domain": "shqtimesweek"
+}

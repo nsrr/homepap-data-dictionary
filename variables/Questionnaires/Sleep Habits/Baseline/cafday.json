@@ -1,0 +1,7 @@
+{
+  "id": "cafday",
+  "display_name": "Sleep-Baseline: Cups of caffeinated beverages per day",
+  "description": "",
+  "type": "choices",
+  "domain": "shqcaffeine"
+}

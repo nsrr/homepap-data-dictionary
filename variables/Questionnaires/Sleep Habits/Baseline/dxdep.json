@@ -1,0 +1,7 @@
+{
+  "id": "dxdep",
+  "display_name": "Sleep-Baseline: Diagnosed: Depression",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

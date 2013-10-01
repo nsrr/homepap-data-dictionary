@@ -1,0 +1,7 @@
+{
+  "id": "awtired",
+  "display_name": "Sleep-Baseline: Feel tired during waking hours",
+  "description": "",
+  "type": "choices",
+  "domain": "shqfreq"
+}

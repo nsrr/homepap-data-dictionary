@@ -1,0 +1,7 @@
+{
+  "id": "packday",
+  "display_name": "Sleep-Baseline: Packs of cigarettes per day",
+  "description": "",
+  "type": "choices",
+  "domain": "shqsmoke"
+}

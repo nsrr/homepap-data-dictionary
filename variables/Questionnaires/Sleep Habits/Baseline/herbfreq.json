@@ -1,0 +1,7 @@
+{
+  "id": "herbfreq",
+  "display_name": "Sleep-Baseline: Used herbal supplements for sleep, how often",
+  "description": "",
+  "type": "choices",
+  "domain": "shqtimesweek"
+}

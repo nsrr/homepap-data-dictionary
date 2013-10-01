@@ -1,0 +1,7 @@
+{
+  "id": "weguhr",
+  "display_name": "Sleep-Baseline: Get out of bed, weekends: Hour",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "srgbari",
+  "display_name": "Sleep-Baseline: Procedure: Bariatric Surgery",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dxlivermed",
+  "display_name": "Sleep-Baseline: Diagnosed: Liver Disease, require treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

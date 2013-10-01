@@ -1,0 +1,7 @@
+{
+  "id": "wdslhr",
+  "display_name": "Sleep-Baseline: Hours actually slept, weekday: Hours",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

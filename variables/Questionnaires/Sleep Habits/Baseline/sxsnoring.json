@@ -1,0 +1,7 @@
+{
+  "id": "sxsnoring",
+  "display_name": "Sleep-Baseline: Problems: Snoring",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}
