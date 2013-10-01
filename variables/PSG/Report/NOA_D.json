@@ -3,5 +3,5 @@
   "display_name": "Number of obstructive apneas (diagnostic)",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }

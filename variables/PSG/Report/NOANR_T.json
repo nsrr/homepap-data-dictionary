@@ -3,5 +3,5 @@
   "display_name": "Number of obstructive apneas in NREM (treatment)",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }

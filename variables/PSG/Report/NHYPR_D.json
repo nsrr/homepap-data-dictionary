@@ -3,5 +3,5 @@
   "display_name": "Number of hypopneas in REM (diagnostic)",
   "description": "",
   "type": "integer",
-  "units": "apneas"
+  "units": "events"
 }
