@@ -1,0 +1,7 @@
+{
+  "id": "medseizfq",
+  "display_name": "Sleep-Baseline: Medication: Seizure, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}

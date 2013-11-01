@@ -1,0 +1,7 @@
+{
+  "id": "medanx",
+  "display_name": "Sleep-Baseline: Medication: Anxiety",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

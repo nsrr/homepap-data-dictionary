@@ -1,0 +1,7 @@
+{
+  "id": "meddiab",
+  "display_name": "Sleep-Baseline: Medication: Diabetes",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

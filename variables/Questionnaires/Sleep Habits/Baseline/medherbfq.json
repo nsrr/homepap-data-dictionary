@@ -1,0 +1,7 @@
+{
+  "id": "medherbfq",
+  "display_name": "Sleep-Baseline: Medication: Herbal, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}

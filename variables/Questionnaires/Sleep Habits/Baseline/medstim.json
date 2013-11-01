@@ -1,0 +1,7 @@
+{
+  "id": "medstim",
+  "display_name": "Sleep-Baseline: Medication: Stimulants",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

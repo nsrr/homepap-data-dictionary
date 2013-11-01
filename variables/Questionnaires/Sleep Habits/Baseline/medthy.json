@@ -1,0 +1,7 @@
+{
+  "id": "medthy",
+  "display_name": "Sleep-Baseline: Medication: Thyroid",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

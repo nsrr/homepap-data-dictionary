@@ -1,0 +1,7 @@
+{
+  "id": "medcholfq",
+  "display_name": "Sleep-Baseline: Medication: Cholesterol, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}
