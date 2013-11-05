@@ -1,0 +1,7 @@
+{
+  "id": "m1medstimfq",
+  "display_name": "Sleep-Month 1: Medication: Stimulants, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}

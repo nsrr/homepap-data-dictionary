@@ -1,0 +1,7 @@
+{
+  "id": "m1medseizfq",
+  "display_name": "Sleep-Month 1: Medication: Seizures, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "m1medstim",
+  "display_name": "Sleep-Month 1: Medication: Stimulants",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

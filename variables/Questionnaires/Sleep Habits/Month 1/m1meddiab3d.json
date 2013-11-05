@@ -1,0 +1,7 @@
+{
+  "id": "m1meddiab3d",
+  "display_name": "Sleep-Month 1: Medication: Diabetes, past 3 days",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

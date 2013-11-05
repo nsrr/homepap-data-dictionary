@@ -1,0 +1,7 @@
+{
+  "id": "m1visitclinic",
+  "display_name": "Sleep-Month 1: Last month: Gone to doctors office",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}
