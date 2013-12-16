@@ -1,0 +1,7 @@
+{
+  "id": "tlb_titr1pass",
+  "display_name": "Titration Lab: Was inital titration acceptable",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

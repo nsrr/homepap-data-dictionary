@@ -1,0 +1,7 @@
+{
+  "id": "tlb_optpress_rdi",
+  "display_name": "Titration Lab: Final RDI at optinmal pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

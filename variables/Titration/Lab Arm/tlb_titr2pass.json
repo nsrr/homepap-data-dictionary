@@ -1,0 +1,8 @@
+{
+  "id": "tlb_titr2pass",
+  "display_name": "Titration Lab: Was the repeat titration acceptable",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}
+
