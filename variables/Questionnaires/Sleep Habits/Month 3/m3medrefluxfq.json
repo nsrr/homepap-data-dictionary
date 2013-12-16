@@ -1,0 +1,7 @@
+{
+  "id": "m3medrefluxfq",
+  "display_name": "Sleep-Month 3: Medication: Stomach, frequency",
+  "description": "",
+  "type": "choices",
+  "domain": "medfreq"
+}
