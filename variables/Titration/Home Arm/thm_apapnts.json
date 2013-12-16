@@ -1,0 +1,7 @@
+{
+  "id": "thm_apapnts",
+  "display_name": "Titration Home: Number of nights for AutoPAP titration",
+  "description": "",
+  "type": "numeric",
+  "units": "nights"
+}

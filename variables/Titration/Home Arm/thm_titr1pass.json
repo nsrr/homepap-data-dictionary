@@ -1,0 +1,7 @@
+{
+  "id": "thm_titr1pass",
+  "display_name": "Titration Home: Was initial titration acceptable",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

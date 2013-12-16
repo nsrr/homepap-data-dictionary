@@ -1,0 +1,7 @@
+{
+  "id": "thm_apapntspass",
+  "display_name": "Titration Home: Number of nights with acceptable AutoPAP titration(at least 4 hours per night)",
+  "description": "",
+  "type": "numeric",
+  "units": "nights"
+}

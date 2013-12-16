@@ -1,0 +1,7 @@
+{
+  "id": "thm_titr2type",
+  "display_name": "Titration Home: Method of repeat titration",
+  "description": "",
+  "type": "choices",
+  "domain": "repeattit"
+}

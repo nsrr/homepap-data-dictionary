@@ -1,0 +1,7 @@
+{
+  "id": "thm_titr2pass",
+  "display_name": "Titration Home: Was the repeat titration acceptable?",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}
