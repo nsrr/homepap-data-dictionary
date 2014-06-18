@@ -1,5 +1,5 @@
 {
-  "id": "OAI",
+  "id": "oai",
   "display_name": "Obstructive Apnea Index (# of obstructive apneas per hr/sleep)",
   "description": "",
   "type": "numeric",

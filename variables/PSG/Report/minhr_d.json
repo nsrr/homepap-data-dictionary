@@ -1,5 +1,5 @@
 {
-  "id": "MINHR_D",
+  "id": "minhr_d",
   "display_name": "minimum heart rate (diagnostic)",
   "description": "",
   "type": "integer",

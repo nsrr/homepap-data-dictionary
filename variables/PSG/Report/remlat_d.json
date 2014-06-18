@@ -1,5 +1,5 @@
 {
-  "id": "REMLAT_D",
+  "id": "remlat_d",
   "display_name": "Latency to REM onset (diagnostic)",
   "description": "",
   "type": "numeric",

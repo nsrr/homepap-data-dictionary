@@ -1,5 +1,5 @@
 {
-  "id": "NCAR_T",
+  "id": "ncar_t",
   "display_name": "Number of central apneas in REM (treatment)",
   "description": "",
   "type": "integer",
