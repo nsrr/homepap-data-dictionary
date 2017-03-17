@@ -1,7 +1,0 @@
-{
-  "id": "inpsg",
-  "display_name": "Has scored PSG report",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

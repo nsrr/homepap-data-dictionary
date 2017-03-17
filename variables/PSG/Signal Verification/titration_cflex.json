@@ -1,7 +1,0 @@
-{
-  "id": "titration_cflex",
-  "display_name": "Titration: CFLEX used",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

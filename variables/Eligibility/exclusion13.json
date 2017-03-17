@@ -1,7 +1,0 @@
-{
-  "id": "exclusion13",
-  "display_name": "Exclusion 13: Major psychiatric diagnosis other than depression",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

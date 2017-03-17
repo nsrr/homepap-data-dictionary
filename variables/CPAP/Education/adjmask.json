@@ -1,7 +1,0 @@
-{
-  "id": "adjmask",
-  "display_name": "Technician adjusted mask",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

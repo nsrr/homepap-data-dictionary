@@ -1,7 +1,0 @@
-{
-  "id": "pmbs_diasbp1",
-  "display_name": "Blood Pressure: Reading 1: Diastolic",
-  "description": "",
-  "type": "integer",
-  "units": "mmHG"
-}

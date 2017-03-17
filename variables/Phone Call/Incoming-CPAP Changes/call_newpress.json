@@ -1,7 +1,0 @@
-{
-  "id": "call_newpress",
-  "display_name": "Changes: New pressure value",
-  "description": "",
-  "type": "numeric",
-  "units": "cmH2O"
-}

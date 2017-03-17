@@ -1,7 +1,0 @@
-{
-  "id": "weloap",
-  "display_name": "Sleep-Baseline: Lights out, weekend: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

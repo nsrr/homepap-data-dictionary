@@ -1,7 +1,0 @@
-{
-  "id": "medheart",
-  "display_name": "Sleep-Baseline: Medication: Heart",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

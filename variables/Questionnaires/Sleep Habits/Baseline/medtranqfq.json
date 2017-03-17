@@ -1,7 +1,0 @@
-{
-  "id": "medtranqfq",
-  "display_name": "Sleep-Baseline: Medication: Tranquilizers, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

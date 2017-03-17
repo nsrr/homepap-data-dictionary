@@ -1,7 +1,0 @@
-{
-  "id": "dxcatyp",
-  "display_name": "Sleep-Baseline: Diagnosed: Cancer, specify type",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

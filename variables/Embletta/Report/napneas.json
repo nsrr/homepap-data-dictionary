@@ -1,7 +1,0 @@
-{
-  "id": "napneas",
-  "display_name": "Number of Apnea Events in Supine position",
-  "description": "",
-  "type": "numeric",
-  "units": "events"
-}

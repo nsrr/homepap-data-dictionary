@@ -1,7 +1,0 @@
-{
-  "id": "incwhylate",
-  "display_name": "Incomplete reason: Participant was late for appointment",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

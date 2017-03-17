@@ -1,7 +1,0 @@
-{
-  "id": "st2stg3pr",
-  "display_name": "Sleep Staging Problem- scoring stage2/stage3-4 unreliable",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

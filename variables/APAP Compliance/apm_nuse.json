@@ -1,7 +1,0 @@
-{
-  "id": "apm_nuse",
-  "display_name": "Total nights used",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}

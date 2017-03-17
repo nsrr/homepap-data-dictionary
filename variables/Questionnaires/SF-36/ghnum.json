@@ -1,7 +1,0 @@
-{
-  "id": "ghnum",
-  "display_name": "SF-36: General Health Perception Scale (# of valid items)",
-  "description": "",
-  "type": "integer",
-  "units": "items"
-}

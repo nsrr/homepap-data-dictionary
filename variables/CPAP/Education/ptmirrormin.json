@@ -1,7 +1,0 @@
-{
-  "id": "ptmirrormin",
-  "display_name": "Patient viewed mask in mirror (minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

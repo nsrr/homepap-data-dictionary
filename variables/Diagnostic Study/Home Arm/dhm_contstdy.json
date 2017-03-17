@@ -1,7 +1,0 @@
-{
-  "id": "dhm_contstdy",
-  "display_name": "If the final RDI >= 15, was patient continued in study",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

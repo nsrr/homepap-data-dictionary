@@ -1,7 +1,0 @@
-{
-  "id": "cp_wearhr",
-  "display_name": "time spent wearing CPAP hours",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

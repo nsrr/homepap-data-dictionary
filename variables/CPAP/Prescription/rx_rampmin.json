@@ -1,7 +1,0 @@
-{
-  "id": "rx_rampmin",
-  "display_name": "6. Ramp: If YES, minutes",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

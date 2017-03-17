@@ -1,7 +1,0 @@
-{
-  "id": "titration_minoptrem",
-  "display_name": "Titration: time in REM at optimal pressure",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

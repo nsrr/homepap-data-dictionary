@@ -1,7 +1,0 @@
-{
-  "id": "call_ap",
-  "display_name": "Time of Call: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

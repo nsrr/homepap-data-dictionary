@@ -1,7 +1,0 @@
-{
-  "id": "snbother",
-  "display_name": "Sleep-Baseline: Snoring ever bothered others",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

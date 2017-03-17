@@ -1,7 +1,0 @@
-{
-  "id": "exclusion03",
-  "display_name": "Exclusion 3: Wake oxygen saturation < 92%",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

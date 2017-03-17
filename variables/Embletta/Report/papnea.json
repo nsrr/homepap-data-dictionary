@@ -1,7 +1,0 @@
-{
-  "id": "papnea",
-  "display_name": "Percent of Events that were Apnea",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

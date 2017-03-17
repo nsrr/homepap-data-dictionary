@@ -1,7 +1,0 @@
-{
-  "id": "ap_chpressdec",
-  "display_name": "Changes Made pressure decrease",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

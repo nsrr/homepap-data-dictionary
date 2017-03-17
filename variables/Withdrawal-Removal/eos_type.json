@@ -1,7 +1,0 @@
-{
-  "id": "eos_type",
-  "display_name": "Type of Withdrawal",
-  "description": "",
-  "type": "choices",
-  "domain": "withdrawal"
-}

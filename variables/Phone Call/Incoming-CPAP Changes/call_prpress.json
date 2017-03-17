@@ -1,7 +1,0 @@
-{
-  "id": "call_prpress",
-  "display_name": "Reason: Problem with pressure",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "meddiab3d",
-  "display_name": "Sleep-Baseline: Medication: Diabetes. past 3 days",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

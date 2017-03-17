@@ -1,7 +1,0 @@
-{
-  "id": "misswhyref",
-  "display_name": "Missed reason; Participant refused",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

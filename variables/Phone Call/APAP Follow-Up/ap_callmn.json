@@ -1,7 +1,0 @@
-{
-  "id": "ap_callmn",
-  "display_name": "Call Time Minutes",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

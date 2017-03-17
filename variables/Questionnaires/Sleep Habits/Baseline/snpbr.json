@@ -1,7 +1,0 @@
-{
-  "id": "snpbr",
-  "display_name": "Sleep-Baseline: Quit breathing during sleep",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

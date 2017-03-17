@@ -1,7 +1,0 @@
-{
-  "id": "medblpfq",
-  "display_name": "Sleep-Baseline: Medication: Blood Pressure, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

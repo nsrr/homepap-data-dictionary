@@ -1,7 +1,0 @@
-{
-  "id": "ap_prdrythroat",
-  "display_name": "Problem Throat Dryness",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

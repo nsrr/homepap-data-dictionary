@@ -1,7 +1,0 @@
-{
-  "id": "quair",
-  "display_name": "Signal Quality: Airflow",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

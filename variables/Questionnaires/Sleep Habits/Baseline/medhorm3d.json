@@ -1,7 +1,0 @@
-{
-  "id": "medhorm3d",
-  "display_name": "Sleep-Baseline: Medication: Hormone, past 3 days",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

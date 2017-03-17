@@ -1,7 +1,0 @@
-{
-  "id": "titration_optcpap",
-  "display_name": "Titration: Optimal CPAP Pressure",
-  "description": "",
-  "type": "numeric",
-  "units": "cmH2O"
-}

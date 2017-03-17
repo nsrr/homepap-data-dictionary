@@ -1,7 +1,0 @@
-{
-  "id": "m1medsleep",
-  "display_name": "Sleep-Month 1: Medication: Sleeping Pills",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

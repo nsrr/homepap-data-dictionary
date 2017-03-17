@@ -1,7 +1,0 @@
-{
-  "id": "call_durmin",
-  "display_name": "Total call time",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

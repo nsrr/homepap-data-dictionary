@@ -1,7 +1,0 @@
-{
-  "id": "medrefluxfq",
-  "display_name": "Sleep-Baseline: Medication: Stomach, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "apt1_nuse",
-  "display_name": "Total Nights Used",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "missintphone",
-  "display_name": "Missed interventions/outcomes: Telephoned Participant",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

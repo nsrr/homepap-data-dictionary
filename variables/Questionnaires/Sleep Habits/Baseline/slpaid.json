@@ -1,7 +1,0 @@
-{
-  "id": "slpaid",
-  "display_name": "Sleep-Baseline: Used alcohol, pills or supplements to help sleep",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

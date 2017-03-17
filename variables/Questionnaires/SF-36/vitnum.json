@@ -1,7 +1,0 @@
-{
-  "id": "vitnum",
-  "display_name": "SF-36: Vitality Scale (# of valid items)",
-  "description": "",
-  "type": "integer",
-  "units": "items"
-}

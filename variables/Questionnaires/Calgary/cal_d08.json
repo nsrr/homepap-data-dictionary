@@ -1,7 +1,0 @@
-{
-  "id": "cal_d08",
-  "display_name": "Difficulty returning to sleep if you wake up",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

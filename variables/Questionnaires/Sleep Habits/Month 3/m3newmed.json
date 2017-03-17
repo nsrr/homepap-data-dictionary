@@ -1,7 +1,0 @@
-{
-  "id": "m3newmed",
-  "display_name": "Sleep-Month 3: Last Month: Taking any new medications",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

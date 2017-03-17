@@ -1,7 +1,0 @@
-{
-  "id": "lmi_d",
-  "display_name": "overall limb movement index (diagnostic)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

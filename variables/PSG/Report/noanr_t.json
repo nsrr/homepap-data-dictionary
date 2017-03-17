@@ -1,7 +1,0 @@
-{
-  "id": "noanr_t",
-  "display_name": "Number of obstructive apneas in NREM (treatment)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

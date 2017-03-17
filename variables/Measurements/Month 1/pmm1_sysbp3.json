@@ -1,7 +1,0 @@
-{
-  "id": "pmm1_sysbp3",
-  "display_name": "Blood Pressure: Reading 3 (systolic)",
-  "description": "",
-  "type": "integer",
-  "units": "mmHG"
-}

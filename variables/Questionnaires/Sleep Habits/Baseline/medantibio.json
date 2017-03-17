@@ -1,7 +1,0 @@
-{
-  "id": "medantibio",
-  "display_name": "Sleep-Baseline: Medication: Antibiotics",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "dhm_whynolab",
-  "display_name": "If no lab study done, Reason",
-  "description": "",
-  "type": "choices",
-  "domain": "nolabreason"
-}

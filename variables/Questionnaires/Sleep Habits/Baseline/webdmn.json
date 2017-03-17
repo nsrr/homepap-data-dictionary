@@ -1,7 +1,0 @@
-{
-  "id": "webdmn",
-  "display_name": "Sleep-Baseline: Get into bed, weekend: Minutes",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

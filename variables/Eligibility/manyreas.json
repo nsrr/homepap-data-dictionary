@@ -1,7 +1,0 @@
-{
-  "id": "manyreas",
-  "display_name": "Reason(s) not participating: Too many underlying conditions",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

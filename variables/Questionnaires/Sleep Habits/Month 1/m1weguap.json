@@ -1,7 +1,0 @@
-{
-  "id": "m1weguap",
-  "display_name": "Sleep-Month 1: Get out of bed, weekend: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain":"ampm"
-}

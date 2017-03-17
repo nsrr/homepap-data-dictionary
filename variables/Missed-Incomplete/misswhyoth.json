@@ -1,7 +1,0 @@
-{
-  "id": "misswhyoth",
-  "display_name": "Missed reason; Other",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

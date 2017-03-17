@@ -1,7 +1,0 @@
-{
-  "id": "m1wdloap",
-  "display_name": "Sleep-Month 1: Lights out, weekday: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

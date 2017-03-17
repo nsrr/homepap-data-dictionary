@@ -1,7 +1,0 @@
-{
-  "id": "cal_e10",
-  "display_name": "Air leakage from nasal mask",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

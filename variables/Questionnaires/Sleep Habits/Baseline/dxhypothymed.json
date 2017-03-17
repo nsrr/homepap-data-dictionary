@@ -1,7 +1,0 @@
-{
-  "id": "dxhypothymed",
-  "display_name": "Sleep-Baseline: Diagnosed: Hypothyroidism, require treatment",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

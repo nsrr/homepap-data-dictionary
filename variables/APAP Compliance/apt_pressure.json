@@ -1,7 +1,0 @@
-{
-  "id": "apt_pressure",
-  "display_name": "Final PAP Pressure",
-  "description": "",
-  "type": "numeric",
-  "units": "cmH2O"
-}

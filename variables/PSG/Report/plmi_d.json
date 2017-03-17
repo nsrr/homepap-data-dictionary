@@ -1,7 +1,0 @@
-{
-  "id": "plmi_d",
-  "display_name": "PLM index (diagnostic)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

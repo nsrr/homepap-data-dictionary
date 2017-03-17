@@ -1,7 +1,0 @@
-{
-  "id": "sl30evmy",
-  "display_name": "Sleep-Baseline: When did sleep pattern start (specific event, specify, months/years)",
-  "description": "",
-  "type": "choices",
-  "domain": "shqsleepevent"
-}

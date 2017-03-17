@@ -1,7 +1,0 @@
-{
-  "id": "cesdmiss",
-  "display_name": "# of missing items",
-  "description": "",
-  "type": "numeric",
-  "units": "items"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "titration_hum",
-  "display_name": "Titration: final humidity setting",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

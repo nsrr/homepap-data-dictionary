@@ -1,7 +1,0 @@
-{
-  "id": "thm_titr1rpt",
-  "display_name": "Titration Home: Was titration repeated?",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "qucan",
-  "display_name": "Signal Quality: Cannula Flow",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

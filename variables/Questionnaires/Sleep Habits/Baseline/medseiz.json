@@ -1,7 +1,0 @@
-{
-  "id": "medseiz",
-  "display_name": "Sleep-Baseline: Medication: Seizure",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "dhm_dx1pass",
-  "display_name": "Did initial study pass",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

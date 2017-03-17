@@ -1,7 +1,0 @@
-{
-  "id": "qulegl",
-  "display_name": "Signal Quality: Left Leg",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

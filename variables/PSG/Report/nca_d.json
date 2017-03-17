@@ -1,7 +1,0 @@
-{
-  "id": "nca_d",
-  "display_name": "Number of central apneas (diagnostic)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

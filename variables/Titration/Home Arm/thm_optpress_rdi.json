@@ -1,7 +1,0 @@
-{
-  "id": "thm_optpress_rdi",
-  "display_name": "Titration Home: Final RDI at optimal pressure",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour"
-}

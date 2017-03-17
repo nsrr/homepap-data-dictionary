@@ -1,7 +1,0 @@
-{
-  "id": "othrace",
-  "display_name": "Race: Other",
-  "description": "",
-  "type": "choices",
-  "domain": "selected"
-}

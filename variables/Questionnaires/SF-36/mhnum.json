@@ -1,7 +1,0 @@
-{
-  "id": "mhnum",
-  "display_name": "SF-36: Mental Health Scale (# of valid items)",
-  "description": "",
-  "type": "integer",
-  "units": "items"
-}

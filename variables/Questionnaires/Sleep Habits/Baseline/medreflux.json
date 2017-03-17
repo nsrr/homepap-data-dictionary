@@ -1,7 +1,0 @@
-{
-  "id": "medreflux",
-  "display_name": "Sleep-Baseline: Medication: Stomach",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

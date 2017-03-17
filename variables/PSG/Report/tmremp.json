@@ -1,7 +1,0 @@
-{
-  "id": "tmremp",
-  "display_name": "% time in REM",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

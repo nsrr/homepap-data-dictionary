@@ -1,7 +1,0 @@
-{
-  "id": "inrdi",
-  "display_name": "Has missing RDI From",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "eos_volmachpr",
-  "display_name": "Voluntary: CPAP machine problems",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

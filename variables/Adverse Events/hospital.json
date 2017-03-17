@@ -1,7 +1,0 @@
-{
-  "id": "hospital",
-  "display_name": "Seriousness: Hospital",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "medwater",
-  "display_name": "Sleep-Baseline: Medication: Water Pills",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

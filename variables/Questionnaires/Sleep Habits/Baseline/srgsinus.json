@@ -1,7 +1,0 @@
-{
-  "id": "srgsinus",
-  "display_name": "Sleep-Baseline: Procedure: Sinus Surgery",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

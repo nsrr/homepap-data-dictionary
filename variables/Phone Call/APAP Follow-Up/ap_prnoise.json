@@ -1,7 +1,0 @@
-{
-  "id": "ap_prnoise",
-  "display_name": "Problem Noise",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

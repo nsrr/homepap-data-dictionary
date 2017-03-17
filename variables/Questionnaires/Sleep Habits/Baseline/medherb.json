@@ -1,7 +1,0 @@
-{
-  "id": "medherb",
-  "display_name": "Sleep-Baseline: Medication: Herbal",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

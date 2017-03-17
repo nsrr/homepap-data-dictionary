@@ -1,7 +1,0 @@
-{
-  "id": "webdhr",
-  "display_name": "Sleep-Baseline: Get into bed, weekend: Hour",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

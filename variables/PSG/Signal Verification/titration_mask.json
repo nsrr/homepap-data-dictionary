@@ -1,7 +1,0 @@
-{
-  "id": "titration_mask",
-  "display_name": "Titration: Mask changes",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

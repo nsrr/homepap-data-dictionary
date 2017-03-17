@@ -1,7 +1,0 @@
-{
-  "id": "medantibiofq",
-  "display_name": "Sleep-Baseline: Medication: Antibiotics, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "bp02",
-  "display_name": "SF-36: Pain interefered with normal work during past 4 weeks",
-  "description": "",
-  "type": "choices",
-  "domain": "sf36extremely"
-}

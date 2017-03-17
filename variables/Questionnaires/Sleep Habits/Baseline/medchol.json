@@ -1,7 +1,0 @@
-{
-  "id": "medchol",
-  "display_name": "Sleep-Baseline: Medication: Cholesterol",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

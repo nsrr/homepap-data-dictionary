@@ -1,7 +1,0 @@
-{
-  "id": "eos_vol",
-  "display_name": "Voluntary Withdrawal",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

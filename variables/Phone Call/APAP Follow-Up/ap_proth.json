@@ -1,7 +1,0 @@
-{
-  "id": "ap_proth",
-  "display_name": "Problem Other",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

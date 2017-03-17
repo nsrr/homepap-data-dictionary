@@ -1,7 +1,0 @@
-{
-  "id": "ai_d",
-  "display_name": "overall arousal index (diagnostic)",
-  "description": "",
-  "type": "numeric",
-  "units": "events"
-}

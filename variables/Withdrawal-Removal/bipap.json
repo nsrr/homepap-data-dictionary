@@ -1,7 +1,0 @@
-{
-  "id": "bipap",
-  "display_name": "Administrative: Needs BIPAP/O2",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

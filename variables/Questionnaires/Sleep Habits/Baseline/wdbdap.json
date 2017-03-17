@@ -1,7 +1,0 @@
-{
-  "id": "wdbdap",
-  "display_name": "Sleep-Baseline: Get into bed, weekday: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

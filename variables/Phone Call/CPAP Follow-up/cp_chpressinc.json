@@ -1,7 +1,0 @@
-{
-  "id": "cp_chpressinc",
-  "display_name": "changes made pressure increase",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

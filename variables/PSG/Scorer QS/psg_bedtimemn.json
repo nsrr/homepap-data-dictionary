@@ -1,7 +1,0 @@
-{
-  "id": "psg_bedtimemn",
-  "display_name": "Total time in bed (min)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

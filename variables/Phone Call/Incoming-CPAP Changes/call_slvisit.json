@@ -1,7 +1,0 @@
-{
-  "id": "call_slvisit",
-  "display_name": "Resolved: Scheduled additional visit",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

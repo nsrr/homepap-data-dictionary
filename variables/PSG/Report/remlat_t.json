@@ -1,7 +1,0 @@
-{
-  "id": "remlat_t",
-  "display_name": "latency to REM sleep (treatment)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

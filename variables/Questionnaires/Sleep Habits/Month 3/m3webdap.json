@@ -1,7 +1,0 @@
-{
-  "id": "m3webdap",
-  "display_name": "Sleep-Month 3: Get into bed, weekend: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

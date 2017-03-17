@@ -1,7 +1,0 @@
-{
-  "id": "quecg",
-  "display_name": "Signal Quality: ECG",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

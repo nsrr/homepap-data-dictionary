@@ -1,7 +1,0 @@
-{
-  "id": "psg_slptimemn",
-  "display_name": "Total sleep time (min)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

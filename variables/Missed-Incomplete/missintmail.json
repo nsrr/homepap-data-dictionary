@@ -1,7 +1,0 @@
-{
-  "id": "missintmail",
-  "display_name": "Missed interventions/outcomes: Mailed reminder card",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "thm_whynorpt",
-  "display_name": "Titration Home: Was Titration repeated? if No, Reason",
-  "description": "",
-  "type": "choices",
-  "domain": "refusereason"
-}

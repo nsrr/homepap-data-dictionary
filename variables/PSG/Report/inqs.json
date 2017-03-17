@@ -1,7 +1,0 @@
-{
-  "id": "inqs",
-  "display_name": "Has QS form",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

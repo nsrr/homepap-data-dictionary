@@ -1,7 +1,0 @@
-{
-  "id": "ess_elgscore",
-  "display_name": "ESS: Final Score",
-  "description": "",
-  "type": "choices",
-  "domain": "ess"
-}

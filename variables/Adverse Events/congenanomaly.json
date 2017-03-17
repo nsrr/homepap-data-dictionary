@@ -1,7 +1,0 @@
-{
-  "id": "congenanomaly",
-  "display_name": "Seriousness: Congenital anomaly",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "medbrpills",
-  "display_name": "Sleep-Baseline: Medication: Breathing Pills",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

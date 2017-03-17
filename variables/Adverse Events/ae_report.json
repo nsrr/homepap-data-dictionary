@@ -1,7 +1,0 @@
-{
-  "id": "ae_report",
-  "display_name": "Adverse Event Report",
-  "description": "",
-  "type": "choices",
-  "domain": "reporttype"
-}

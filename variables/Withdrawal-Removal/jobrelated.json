@@ -1,7 +1,0 @@
-{
-  "id": "jobrelated",
-  "display_name": "Voluntary: Job Related",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "emgdur",
-  "display_name": "Hours of usable signal: EMG",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

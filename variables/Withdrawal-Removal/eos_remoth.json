@@ -1,7 +1,0 @@
-{
-  "id": "eos_remoth",
-  "display_name": "Administrative: Other, specify",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

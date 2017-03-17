@@ -1,7 +1,0 @@
-{
-  "id": "cp_callap",
-  "display_name": "Time call began: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "pct_supine",
-  "display_name": "Percent time in Supine position",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

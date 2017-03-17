@@ -1,7 +1,0 @@
-{
-  "id": "eos_volcomp",
-  "display_name": "Voluntary: CPAP compliance",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

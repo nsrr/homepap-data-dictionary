@@ -1,7 +1,0 @@
-{
-  "id": "inact",
-  "display_name": "ESS: Sitting, Inactive, in a Public Place",
-  "description": "",
-  "type": "choices",
-  "domain": "ess"
-}

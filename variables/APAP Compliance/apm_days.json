@@ -1,7 +1,0 @@
-{
-  "id": "apm_days",
-  "display_name": "Number of days in interval",
-  "description": "",
-  "type": "numeric",
-  "units": "days"
-}

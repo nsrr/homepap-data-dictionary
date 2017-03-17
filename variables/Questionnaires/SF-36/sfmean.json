@@ -1,7 +1,0 @@
-{
-  "id": "sfmean",
-  "display_name": "SF-36: Social Functioning Scale (mean of items)",
-  "description": "",
-  "type": "integer",
-  "units": "items"
-}

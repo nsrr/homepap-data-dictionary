@@ -1,7 +1,0 @@
-{
-  "id": "period",
-  "display_name": "Unusual Occurrences- Periodic breathing >= 10 mins",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

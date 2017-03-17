@@ -1,7 +1,0 @@
-{
-  "id": "pmbs_sysbp2",
-  "display_name": "Blood Pressure: Reading 2: Systolic",
-  "description": "",
-  "type": "integer",
-  "units": "mmHG"
-}

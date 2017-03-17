@@ -1,7 +1,0 @@
-{
-  "id": "lifethreat",
-  "display_name": "Seriousness: Life-threatening",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

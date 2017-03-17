@@ -1,7 +1,0 @@
-{
-  "id": "workschd",
-  "display_name": "Sleep-Baseline: Usual work schedule",
-  "description": "",
-  "type": "choices",
-  "domain": "shqwork"
-}

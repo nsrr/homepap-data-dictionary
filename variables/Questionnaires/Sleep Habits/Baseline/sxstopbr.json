@@ -1,7 +1,0 @@
-{
-  "id": "sxstopbr",
-  "display_name": "Sleep-Baseline: Problems: Stopping Breathing",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "disability",
-  "display_name": "Seriousness: Disability",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

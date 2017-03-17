@@ -1,7 +1,0 @@
-{
-  "id": "emb_xflowdur",
-  "display_name": "Hours of usable signal: X-Flow",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "slplat_t",
-  "display_name": "latency to sleep onset (treatment)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

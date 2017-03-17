@@ -1,7 +1,0 @@
-{
-  "id": "misswhyill",
-  "display_name": "Missed reason; Participant ill",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

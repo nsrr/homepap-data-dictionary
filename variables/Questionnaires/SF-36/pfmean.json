@@ -1,7 +1,0 @@
-{
-  "id": "pfmean",
-  "display_name": "SF-36: Physical Functioning Scale (mean of items)",
-  "description": "",
-  "type": "integer",
-  "units": "items"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "cal_d20",
-  "display_name": "Concern regarding close calls while driving",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

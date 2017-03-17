@@ -1,7 +1,0 @@
-{
-  "id": "minhr_t",
-  "display_name": "minimum heart rate (treatment)",
-  "description": "",
-  "type": "integer",
-  "units": "bpm"
-}

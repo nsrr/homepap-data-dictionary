@@ -1,7 +1,0 @@
-{
-  "id": "slpprd_d",
-  "display_name": "total sleep time (diagnostic)(minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

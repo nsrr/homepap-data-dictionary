@@ -1,7 +1,0 @@
-{
-  "id": "tlb_titr1type",
-  "display_name": "Titration Lab: Inital titration type",
-  "description": "",
-  "type": "choices",
-  "domain": "tittype"
-}

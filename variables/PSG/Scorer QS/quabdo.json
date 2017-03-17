@@ -1,7 +1,0 @@
-{
-  "id": "quabdo",
-  "display_name": "Signal Quality: Abdomen",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

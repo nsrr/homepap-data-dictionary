@@ -1,7 +1,0 @@
-{
-  "id": "leakdur",
-  "display_name": "Hours of usable signal: CPAP Leak",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

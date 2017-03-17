@@ -1,7 +1,0 @@
-{
-  "id": "m1admhosp",
-  "display_name": "Sleep-Month 1: Last month: Admitted to hospital",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

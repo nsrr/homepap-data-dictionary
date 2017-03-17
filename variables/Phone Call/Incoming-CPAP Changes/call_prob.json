@@ -1,6 +1,0 @@
-{
-  "id": "call_prob",
-  "display_name": "What is the reason for the incoming call?",
-  "description": "",
-  "type": "string"
-}

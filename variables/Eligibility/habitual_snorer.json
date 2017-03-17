@@ -1,7 +1,0 @@
-{
-  "id": "habitual_snorer",
-  "display_name": "Habitual Snorer (>= 3 nights per week)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

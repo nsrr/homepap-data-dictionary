@@ -1,7 +1,0 @@
-{
-  "id": "sfht",
-  "display_name": "SF-36: General health compared to one year ago",
-  "description": "",
-  "type": "choices",
-  "domain": "sf36worse"
-}

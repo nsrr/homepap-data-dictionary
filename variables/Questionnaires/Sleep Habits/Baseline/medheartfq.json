@@ -1,7 +1,0 @@
-{
-  "id": "medheartfq",
-  "display_name": "Sleep-Baseline: Medication: Heart, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

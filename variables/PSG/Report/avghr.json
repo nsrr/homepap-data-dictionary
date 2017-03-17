@@ -1,7 +1,0 @@
-{
-  "id": "avghr",
-  "display_name": "Average Heart Rate for sleep time",
-  "description": "",
-  "type": "integer",
-  "units": "bpm"
-}

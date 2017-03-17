@@ -1,7 +1,0 @@
-{
-  "id": "quchest",
-  "display_name": "Signal Quality: Thoracic",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "unuhrou",
-  "display_name": "Medical Alert- AHI > 50",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "eos_remoc",
-  "display_name": "Administrative: Change in social situation",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "thm_titr3hrs",
-  "display_name": "Titration Home: Was the recordining period at least 4 hours per night for at least 2 nights?",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

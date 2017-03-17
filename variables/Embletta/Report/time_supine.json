@@ -1,7 +1,0 @@
-{
-  "id": "time_supine",
-  "display_name": "Time in Supine position",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

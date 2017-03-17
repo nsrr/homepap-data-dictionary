@@ -1,7 +1,0 @@
-{
-  "id": "emb_ecgudur",
-  "display_name": "Hours of usable signal: ECG",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

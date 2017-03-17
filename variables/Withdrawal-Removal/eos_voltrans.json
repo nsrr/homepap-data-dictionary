@@ -1,7 +1,0 @@
-{
-  "id": "eos_voltrans",
-  "display_name": "Voluntary: Transportation",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "call_chmask",
-  "display_name": "Changes: Mask changed",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

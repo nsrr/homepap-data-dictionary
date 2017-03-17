@@ -1,7 +1,0 @@
-{
-  "id": "rp01",
-  "display_name": "SF-36: Problem due to physical health: Cut down on work or activities",
-  "description": "",
-  "type": "choices",
-  "domain": "sf36time"
-}

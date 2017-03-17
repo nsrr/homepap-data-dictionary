@@ -1,7 +1,0 @@
-{
-  "id": "cp_callmin",
-  "display_name": "Time call began: Minutes",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

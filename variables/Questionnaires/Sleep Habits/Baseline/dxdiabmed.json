@@ -1,7 +1,0 @@
-{
-  "id": "dxdiabmed",
-  "display_name": "Sleep-Baseline: Diagnosed: Diabetes, require treatment",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

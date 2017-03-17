@@ -1,7 +1,0 @@
-{
-  "id": "cp_callatts",
-  "display_name": "Number of phone call attempts",
-  "description": "",
-  "type": "integer",
-  "units": "attempts"
-}

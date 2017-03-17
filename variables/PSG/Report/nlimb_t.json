@@ -1,7 +1,0 @@
-{
-  "id": "nlimb_t",
-  "display_name": "total number of limb momvements (treatment)",
-  "description": "",
-  "type": "integer",
-  "units": "movements"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "cp_prmaskleak",
-  "display_name": "problems addressed mask leak",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

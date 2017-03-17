@@ -1,7 +1,0 @@
-{
-  "id": "inclusion3",
-  "display_name": "Inclusion 3: Adjusted Neck Circumference >43 cm",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "dhm_rdifulllab",
-  "display_name": "Was the final RDI type a Full-Lab",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

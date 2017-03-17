@@ -1,7 +1,0 @@
-{
-  "id": "cal_d15",
-  "display_name": "Difficulty staying awake while reading",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

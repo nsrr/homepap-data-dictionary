@@ -1,7 +1,0 @@
-{
-  "id": "misswhylost",
-  "display_name": "Missed reason; Unable to contact participant",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

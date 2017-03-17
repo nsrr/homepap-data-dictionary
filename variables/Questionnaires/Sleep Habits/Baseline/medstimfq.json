@@ -1,7 +1,0 @@
-{
-  "id": "medstimfq",
-  "display_name": "Sleep-Baseline: Medication: Stimulants, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

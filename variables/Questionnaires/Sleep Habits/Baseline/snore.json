@@ -1,7 +1,0 @@
-{
-  "id": "snore",
-  "display_name": "Sleep-Baseline: Been told that you snore",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

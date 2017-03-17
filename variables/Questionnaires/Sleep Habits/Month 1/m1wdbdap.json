@@ -1,7 +1,0 @@
-{
-  "id": "m1wdbdap",
-  "display_name": "Sleep-Month 1: Get into bed, weekday: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

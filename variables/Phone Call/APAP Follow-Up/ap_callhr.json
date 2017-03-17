@@ -1,7 +1,0 @@
-{
-  "id": "ap_callhr",
-  "display_name": "Call Time Hours",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

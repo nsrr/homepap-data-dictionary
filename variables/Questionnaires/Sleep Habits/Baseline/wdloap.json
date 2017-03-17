@@ -1,7 +1,0 @@
-{
-  "id": "wdloap",
-  "display_name": "Sleep-Baseline: Lights out, weekday: AM/PM",
-  "description": "",
-  "type": "choices",
-  "domain": "ampm"
-}

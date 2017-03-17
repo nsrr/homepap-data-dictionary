@@ -1,7 +1,0 @@
-{
-  "id": "minsao2_d",
-  "display_name": "Minimum spO2 (diagnostic)",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

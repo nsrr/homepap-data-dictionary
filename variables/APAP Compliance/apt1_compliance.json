@@ -1,7 +1,0 @@
-{
-  "id": "apt1_compliance",
-  "display_name": "Overall Compliance",
-  "description": "",
-  "type": "integer",
-  "units": "% of days"
-}

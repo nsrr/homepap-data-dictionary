@@ -1,7 +1,0 @@
-{
-  "id": "snordur",
-  "display_name": "Hours of usable signal: Snore Mic",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

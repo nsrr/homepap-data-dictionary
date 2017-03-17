@@ -1,7 +1,0 @@
-{
-  "id": "titration_minoptsup",
-  "display_name": "Titration: time in supine at optimal pressure",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

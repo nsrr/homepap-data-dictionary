@@ -1,7 +1,0 @@
-{
-  "id": "quleak",
-  "display_name": "Signal Quality: CPAP Leak",
-  "description": "",
-  "type": "choices",
-  "domain": "pctestsleep"
-}

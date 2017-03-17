@@ -1,7 +1,0 @@
-{
-  "id": "misswhyout",
-  "display_name": "Missed reason; Participant out of town",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

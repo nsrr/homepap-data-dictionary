@@ -1,7 +1,0 @@
-{
-  "id": "noplm",
-  "display_name": "Number of movements during sleep:",
-  "description": "",
-  "type": "numeric",
-  "units": "movements"
-}

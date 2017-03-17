@@ -1,7 +1,0 @@
-{
-  "id": "medsleepfq",
-  "display_name": "Sleep-Baseline: Medication: Sleeping Pills, frequency",
-  "description": "",
-  "type": "choices",
-  "domain": "medfreq"
-}

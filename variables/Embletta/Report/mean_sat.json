@@ -1,7 +1,0 @@
-{
-  "id": "mean_sat",
-  "display_name": "Average Oxygen Saturation",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

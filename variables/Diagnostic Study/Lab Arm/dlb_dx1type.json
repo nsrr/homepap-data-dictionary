@@ -1,7 +1,0 @@
-{
-  "id": "dlb_dx1type",
-  "display_name": "Initial diagnostic study type",
-  "description": "",
-  "type": "choices",
-  "domain": "diagtype"
-}

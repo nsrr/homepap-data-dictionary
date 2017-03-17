@@ -1,7 +1,0 @@
-{
-  "id": "psgrdi_rdins_type",
-  "display_name": "Non-Supine RDI or AHI",
-  "description": "",
-  "type": "choices",
-  "domain": "rdiahi"
-}

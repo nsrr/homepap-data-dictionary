@@ -1,7 +1,0 @@
-{
-  "id": "ae_resolve",
-  "display_name": "Outcome: Resolved/ recovered",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

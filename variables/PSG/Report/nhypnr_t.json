@@ -1,7 +1,0 @@
-{
-  "id": "nhypnr_t",
-  "display_name": "Number of hypopneas in NREM (treatment)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

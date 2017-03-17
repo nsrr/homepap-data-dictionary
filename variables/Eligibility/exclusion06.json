@@ -1,7 +1,0 @@
-{
-  "id": "exclusion06",
-  "display_name": "Exclusion 6: Unable to undergo home testing",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

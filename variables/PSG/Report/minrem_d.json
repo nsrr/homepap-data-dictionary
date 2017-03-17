@@ -1,7 +1,0 @@
-{
-  "id": "minrem_d",
-  "display_name": "total time REM (diagnostic)(minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

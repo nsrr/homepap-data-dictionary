@@ -1,7 +1,0 @@
-{
-  "id": "slplat_d",
-  "display_name": "Latency to sleep onset (diagnostic)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

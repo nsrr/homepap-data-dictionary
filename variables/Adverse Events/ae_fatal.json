@@ -1,7 +1,0 @@
-{
-  "id": "ae_fatal",
-  "display_name": "Outcome: Fatal",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

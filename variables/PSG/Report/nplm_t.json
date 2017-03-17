@@ -1,7 +1,0 @@
-{
-  "id": "nplm_t",
-  "display_name": "total number of PLM (treatment)",
-  "description": "",
-  "type": "integer",
-  "units": "events"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "pctrem_d",
-  "display_name": "% sleep time stage REM (diagnostic)",
-  "description": "",
-  "type": "numeric",
-  "units": "%"
-}

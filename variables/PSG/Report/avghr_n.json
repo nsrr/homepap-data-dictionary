@@ -1,7 +1,0 @@
-{
-  "id": "avghr_n",
-  "display_name": "average heart rate (entire night)",
-  "description": "",
-  "type": "integer",
-  "units": "bpm"
-}

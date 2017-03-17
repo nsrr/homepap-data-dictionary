@@ -1,7 +1,0 @@
-{
-  "id": "titration_chinstrap",
-  "display_name": "Titration: chinstrap used",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}
