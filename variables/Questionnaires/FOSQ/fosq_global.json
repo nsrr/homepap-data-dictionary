@@ -1,0 +1,7 @@
+{
+  "id": "fosq_global",
+  "display_name": "FOSQ: Global Score",
+  "description": "Mean of the subscales multiplied by five (5).",
+  "type": "numeric",
+  "units": ""
+}

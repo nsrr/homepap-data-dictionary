@@ -1,0 +1,7 @@
+{
+  "id": "fosq_sexual",
+  "display_name": "FOSQ: Sexual Activity Score",
+  "description": "Mean of items 27-30.",
+  "type": "numeric",
+  "units": ""
+}

@@ -1,0 +1,7 @@
+{
+  "id": "fosq_socout",
+  "display_name": "FOSQ: Social Outcome Score",
+  "description": "Mean of items 12-13.",
+  "type": "numeric",
+  "units": ""
+}

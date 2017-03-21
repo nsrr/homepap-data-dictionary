@@ -1,0 +1,7 @@
+{
+  "id": "acceptance",
+  "display_name": "Accepted APAP equipment (Has CPAP prescription)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

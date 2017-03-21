@@ -1,0 +1,7 @@
+{
+  "id": "race3",
+  "display_name": "Race",
+  "description": "Self-reported race collapsed into three (3) categories.",
+  "type": "choices",
+  "domain": "race3"
+}

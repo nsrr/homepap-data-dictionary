@@ -1,0 +1,7 @@
+{
+  "id": "crossover",
+  "display_name": "Crossed-over to Lab Arm from Home Arm",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

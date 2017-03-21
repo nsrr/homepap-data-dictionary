@@ -1,0 +1,7 @@
+{
+  "id": "systolic",
+  "display_name": "Systolic blood pressure",
+  "description": "Average of the 2nd and 3rd resting systolic blood pressure readings.",
+  "type": "numeric",
+  "units": "millimeters of mercury"
+}

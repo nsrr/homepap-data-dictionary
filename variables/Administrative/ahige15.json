@@ -1,0 +1,7 @@
+{
+  "id": "ahige15",
+  "display_name": "AHI >= 15 on diagnostic sleep study",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

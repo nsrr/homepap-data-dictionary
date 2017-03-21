@@ -1,0 +1,7 @@
+{
+  "id": "ahi",
+  "display_name": "Final Apnea-Hypopnea Index (AHI)",
+  "description": "Determined from the diagnostic sleep study.",
+  "type": "numeric",
+  "units": "events per hour"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "completedm1m3",
+  "display_name": "Completed Month 1 and Month 3 Follow-up Visits",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

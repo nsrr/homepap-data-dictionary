@@ -1,0 +1,7 @@
+{
+  "id": "pressure",
+  "display_name": "Optimal titration pressure",
+  "description": "",
+  "type": "integer",
+  "units": "days since enrollment"
+}

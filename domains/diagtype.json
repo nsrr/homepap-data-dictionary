@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Home sleep study (Embletta)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Full-night lab sleep study",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Split-night lab sleep study",
+    "description": ""
+  }
+]

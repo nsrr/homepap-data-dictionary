@@ -1,0 +1,7 @@
+{
+  "id": "titrated",
+  "display_name": "Titrated for optimal pressure",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

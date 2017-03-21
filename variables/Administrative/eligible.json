@@ -1,0 +1,7 @@
+{
+  "id": "eligible",
+  "display_name": "Eligible for treatment (AHI >= 15 and not withdrawn)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

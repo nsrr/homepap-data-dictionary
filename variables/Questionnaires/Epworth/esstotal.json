@@ -1,0 +1,7 @@
+{
+  "id": "esstotal",
+  "display_name": "ESS: Total Score",
+  "description": "Sum of eight (8) individual items.",
+  "type": "integer",
+  "units": ""
+}

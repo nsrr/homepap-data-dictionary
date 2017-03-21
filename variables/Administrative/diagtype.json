@@ -1,0 +1,7 @@
+{
+  "id": "diagtype",
+  "display_name": "Diagnostic type used to determine AHI",
+  "description": "",
+  "type": "choices",
+  "domain": "diagtype"
+}

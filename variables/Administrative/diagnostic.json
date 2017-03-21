@@ -1,0 +1,7 @@
+{
+  "id": "diagnostic",
+  "display_name": "Received diagnostic sleep study",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}
