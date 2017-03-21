@@ -3,5 +3,6 @@
   "display_name": "Average CPAP use per night",
   "description": "Computed as the total time of CPAP use divided by the total number of days in the interval. Follow-up periods of 30 days were used at Month 1 and Month 3.",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "commonly_used": true
 }

@@ -1,7 +1,7 @@
 {
   "id": "nsrrid",
-  "display_name": "Obfuscated NSRR Subject ID",
-  "description": "This subject identifier was created by the NSRR team to more easily match with file downloads.",
+  "display_name": "NSRR Subject ID",
+  "description": "The NSRR subject identifer links the subject's data and files.",
   "type": "identifier",
   "commonly_used": true
 }
