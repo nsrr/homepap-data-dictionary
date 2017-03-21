@@ -3,5 +3,6 @@
   "display_name": "SF-36: Standardized Mental Component Scale",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "",
+  "commonly_used": true
 }

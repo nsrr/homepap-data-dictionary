@@ -3,5 +3,6 @@
   "display_name": "ESS: Total Score",
   "description": "Sum of eight (8) individual items.",
   "type": "integer",
-  "units": ""
+  "units": "",
+  "commonly_used": true
 }

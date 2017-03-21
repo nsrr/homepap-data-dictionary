@@ -3,5 +3,6 @@
   "display_name": "Diastolic blood pressure",
   "description": "Average of the 2nd and 3rd resting diastolic blood pressure readings.",
   "type": "numeric",
-  "units": "millimeters of mercury"
+  "units": "millimeters of mercury",
+  "commonly_used": true
 }

@@ -3,5 +3,6 @@
   "display_name": "Treatment Arm",
   "description": "Subjects were randomized to a treatment arm (i.e. diagnostic study type) at the end of the Baseline Visit.",
   "type": "choices",
-  "domain": "treatmentarm"
+  "domain": "treatmentarm",
+  "commonly_used": true
 }

@@ -21,7 +21,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.1.0.beta1;
+  %let version = 0.1.0.beta2;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
@@ -31,7 +31,7 @@
 *******************************************************************************;
   data hpapeligibility;
     set homepaps.homepapeligibility;
-  run;  
+  run;
 
   data hpapscreening;
     set homepaps.homepapmeasscrn;
@@ -105,7 +105,7 @@
 
     *create race (categorical) variable;
     racetotal = sum(amerindian,hawaii,white,asian,aframerican,othrace);
-    
+
     if racetotal = 1 and white = 1 then race3 = 1;
     else if racetotal = 1 and aframerican = 1 then race3 = 2;
     else if racetotal > 0 or othrace = 1 then race3 = 3;
@@ -121,7 +121,7 @@
       fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS pressure ablation ahi
-      diagtype crossover ttt diagnostic ahige15 eligible titrated 
+      diagtype crossover ttt diagnostic ahige15 eligible titrated
       acceptance completedm1 completedm3 completedm1m3 ;
   run;
 
@@ -140,7 +140,7 @@
 
   data homepapmonth1;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3
         ethnicity)
       hpapmeasm1
       homepaps.homepapcalgarymerge (where=(timepoint=5))
@@ -157,7 +157,7 @@
     visit = 2;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 ethnicity systolic diastolic cal_total 
+    keep studyid visit treatmentarm age gender race3 ethnicity systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -182,7 +182,7 @@
 
   data homepapmonth3;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3
         ethnicity)
       hpapmeasm3
       homepaps.homepapcalgarymerge (where=(timepoint=6))
@@ -199,7 +199,7 @@
     visit = 3;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 ethnicity weightkg bmi systolic diastolic cal_total 
+    keep studyid visit treatmentarm age gender race3 ethnicity weightkg bmi systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -250,20 +250,20 @@
 *******************************************************************************;
 * make all variable names lowercase ;
 *******************************************************************************;
-  options mprint; 
-  %macro lowcase(dsn); 
-       %let dsid=%sysfunc(open(&dsn)); 
-       %let num=%sysfunc(attrn(&dsid,nvars)); 
+  options mprint;
+  %macro lowcase(dsn);
+       %let dsid=%sysfunc(open(&dsn));
+       %let num=%sysfunc(attrn(&dsid,nvars));
        %put &num;
-       data &dsn; 
-             set &dsn(rename=( 
-          %do i = 1 %to &num; 
+       data &dsn;
+             set &dsn(rename=(
+          %do i = 1 %to &num;
           %let var&i=%sysfunc(varname(&dsid,&i));    /*function of varname returns the name of a SAS data set variable*/
-          &&var&i=%sysfunc(lowcase(&&var&i))         /*rename all variables*/ 
-          %end;)); 
-          %let close=%sysfunc(close(&dsid)); 
-    run; 
-  %mend lowcase; 
+          &&var&i=%sysfunc(lowcase(&&var&i))         /*rename all variables*/
+          %end;));
+          %let close=%sysfunc(close(&dsid));
+    run;
+  %mend lowcase;
 
   %lowcase(homepapbaseline_nsrr);
   %lowcase(homepapmonth1_nsrr);

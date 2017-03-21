@@ -3,5 +3,6 @@
   "display_name": "Age at baseline visit",
   "description": "The age of the subject at the time of the baseline visit and randomization.",
   "type": "integer",
-  "units": "years"
+  "units": "years",
+  "commonly_used": true
 }
