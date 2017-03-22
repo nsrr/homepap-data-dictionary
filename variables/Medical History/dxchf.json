@@ -1,0 +1,7 @@
+{
+  "id": "dxchf",
+  "display_name": "Diagnosed with congestive heart failure",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

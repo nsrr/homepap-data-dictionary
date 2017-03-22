@@ -1,0 +1,7 @@
+{
+  "id": "dxca",
+  "display_name": "Diagnosed with cancer",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

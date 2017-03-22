@@ -1,0 +1,7 @@
+{
+  "id": "dxemph",
+  "display_name": "Diagnosed with emphysema",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

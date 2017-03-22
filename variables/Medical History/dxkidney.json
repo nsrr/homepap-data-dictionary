@@ -1,0 +1,7 @@
+{
+  "id": "dxkidney",
+  "display_name": "Diagnosed with kidney disease",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

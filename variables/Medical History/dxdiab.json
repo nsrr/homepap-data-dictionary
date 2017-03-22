@@ -1,0 +1,7 @@
+{
+  "id": "dxdiab",
+  "display_name": "Diagnosed with diabetes",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

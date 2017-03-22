@@ -21,7 +21,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.1.0.beta2;
+  %let version = 0.1.0.beta3;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
@@ -89,6 +89,7 @@
       homepaps.homepapess (where=(timepoint=2))
       homepaps.homepapfosq (where=(timepoint=2))
       homepaps.homepapsf36 (where=(timepoint=2))
+      homepaps.homepapsleepbase (where=(timepoint=2))
       homepaps.hpapanalysis_20110217;
     by studyid;
 
@@ -116,13 +117,34 @@
     else if ahisource = "SPL" then diagtype = 3;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 ethnicity heightcm
-      weightkg bmi neckcm waistcm systolic diastolic cal_total esstotal
+    keep 
+      /* administrative */
+      studyid visit treatmentarm age gender race3 ethnicity 
+
+      /* anthropometry */
+      heightcm weightkg bmi neckcm waistcm systolic diastolic 
+
+      /* calgary */
+      cal_total 
+
+      /* epworth, ess */
+      esstotal
+
+      /* fosq */
       fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
-      fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
-      MH_norm agg_phys agg_ment sf36_PCS sf36_MCS pressure ablation ahi
-      diagtype crossover ttt diagnostic ahige15 eligible titrated
-      acceptance completedm1 completedm3 completedm1m3 ;
+      fosq_global 
+
+      /* sf-36 */
+      PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm MH_norm agg_phys 
+      agg_ment sf36_PCS sf36_MCS 
+
+      /* medical history */
+      dxasth dxadhd dxca dxcatyp dxchf dxchd dxdep dxdiab dxemph dxgerd dxhay 
+      dxhich dxhtn dxhyperthy dxhypothy dxkidney dxliver dxplhtn dxseiz dxstroke
+
+      /* analysis indicators */
+      pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible 
+      titrated acceptance completedm1 completedm3 completedm1m3 ;
   run;
 
 

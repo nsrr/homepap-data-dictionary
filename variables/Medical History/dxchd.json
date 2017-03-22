@@ -1,0 +1,7 @@
+{
+  "id": "dxchd",
+  "display_name": "Diagnosed with coronary heart disease (angina, heart attack)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

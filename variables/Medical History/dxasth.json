@@ -1,0 +1,7 @@
+{
+  "id": "dxasth",
+  "display_name": "Diagnosed with asthma",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

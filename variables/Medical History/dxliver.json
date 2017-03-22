@@ -1,0 +1,7 @@
+{
+  "id": "dxliver",
+  "display_name": "Diagnosed with liver disease",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dxstroke",
+  "display_name": "Diagnosed with stroke",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}
