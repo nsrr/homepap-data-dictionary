@@ -1,0 +1,8 @@
+{
+  "id": "avghr_t",
+  "display_name": "Average heart rate (split-night, treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "commonly_used": true
+}

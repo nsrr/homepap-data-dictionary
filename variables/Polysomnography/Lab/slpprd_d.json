@@ -1,0 +1,8 @@
+{
+  "id": "slpprd_d",
+  "display_name": "Total sleep time (split-night, diagnostic)",
+  "description": "This time period is used to calculate indices and other averages.",
+  "type": "numeric",
+  "units": "minutes",
+  "commonly_used": true
+}

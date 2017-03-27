@@ -1,0 +1,7 @@
+{
+  "id": "pctsa90p_t",
+  "display_name": "Portion of sleep time spent with oxygen saturation less than 90% (split-night, treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

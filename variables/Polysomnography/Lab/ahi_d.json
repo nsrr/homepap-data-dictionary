@@ -1,0 +1,12 @@
+{
+  "id": "ahi_d",
+  "display_name": "Apnea-Hypopnea Index (split-night, diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "commonly_used": true,
+  "labels": [
+    "ahi",
+    "rdi"
+  ]
+}

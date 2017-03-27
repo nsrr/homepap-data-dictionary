@@ -21,7 +21,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.1.0.beta3;
+  %let version = 0.1.0.beta4;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
@@ -80,6 +80,39 @@
     diastolic = mean(pmbs_diasbp2,pmbs_diasbp3);
   run;
 
+  *modify lab psg dataset to get key variables;
+  data hpappsg;
+    set homepaps.homepappsg;
+
+    *only keep diagnostic and split-night studies;
+    if type in ("S","D");
+
+    *create average sao2 for recording;
+    if avsao2rh = . then avsao2rh_holder = 0;
+      else avsao2rh_holder = avsao2rh;
+
+    avgsao2 = ((avsao2nh) * (tmstg1p+tmstg2p+tmstg34p) + (avsao2rh_holder)*(tmremp))/100;
+    drop avsao2rh_holder;
+    format avgsao2 8.;
+
+    *create new ahi variables;
+    ahi_full = ahi;
+    ahi_d = rdi_d;
+    ahi_t = rdi_t;
+
+    *delete duplicate/extraneous studies;
+    if studyid = 2159 and type = "S" then delete;
+    if studyid = 6480 and psg_qsrdi = 0 then delete;
+  run;
+
+  *modify home psg (embletta) dataset to get key variables;
+  data hpapemb;
+    set homepaps.homepapemb;
+
+    *only keep passing studies;
+    if emb_status = 1;
+  run;
+
   *merge baseline data on studyid;
   data homepapbaseline;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
@@ -90,6 +123,8 @@
       homepaps.homepapfosq (where=(timepoint=2))
       homepaps.homepapsf36 (where=(timepoint=2))
       homepaps.homepapsleepbase (where=(timepoint=2))
+      hpappsg (drop=ahi)
+      hpapemb
       homepaps.hpapanalysis_20110217;
     by studyid;
 
@@ -116,6 +151,12 @@
     else if ahisource = "PSG" then diagtype = 2;
     else if ahisource = "SPL" then diagtype = 3;
 
+    *for lab sleep studies, modify certain variables based on full/split night;
+    if diagtype = 3 then slpprdp = .; /* use slpprd_d */
+    pctsa90p_d = 100 * (PCTSA90_D / SLPPRD_D);
+    pctsa90p_t = 100 * (PCTSA90_T / SLPPRD_T);
+    format pctsa90p_d pctsa90p_t 8.1;
+
     *only keep subset of variables;
     keep 
       /* administrative */
@@ -141,6 +182,21 @@
       /* medical history */
       dxasth dxadhd dxca dxcatyp dxchf dxchd dxdep dxdiab dxemph dxgerd dxhay 
       dxhich dxhtn dxhyperthy dxhypothy dxkidney dxliver dxplhtn dxseiz dxstroke
+
+      /* psg - full */
+      slpprdp slpeffp TMSTG1P TMSTG2P TMSTG34P TMREMP avgsao2 
+      PCTSA90H AVGHR ahi_full
+
+      /* psg - split, diagnostic */
+      SLPPRD_D slpeff_d PCTSTG1_D PCTSTG2_D PCTSTG34_D PCTREM_D AVGSAO2_D 
+      pctsa90p_d AVGHR_D ahi_d
+
+      /* psg - split, treatment */
+      SLPPRD_T slpeff_t PCTSTG1_T PCTSTG2_T PCTSTG34_T PCTREM_T AVGSAO2_T 
+      pctsa90p_t AVGHR_T ahi_t
+
+      /* embletta */
+      index_time aphypi avgsat satlt90p avgbpn
 
       /* analysis indicators */
       pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible 

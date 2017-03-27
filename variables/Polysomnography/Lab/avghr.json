@@ -1,0 +1,8 @@
+{
+  "id": "avghr",
+  "display_name": "Average heart rate (full-night)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "commonly_used": true
+}

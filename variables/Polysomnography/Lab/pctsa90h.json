@@ -1,0 +1,7 @@
+{
+  "id": "pctsa90h",
+  "display_name": "Portion of sleep time spent with oxygen saturation less than 90% (full-night)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

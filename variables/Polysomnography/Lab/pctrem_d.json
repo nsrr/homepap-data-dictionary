@@ -1,0 +1,7 @@
+{
+  "id": "pctrem_d",
+  "display_name": "Portion of sleep time spent in REM (split-night, diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

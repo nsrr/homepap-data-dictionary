@@ -1,0 +1,7 @@
+{
+  "id": "pctstg2_d",
+  "display_name": "Portion of sleep time spent in Stage 2 (split-night, diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}
