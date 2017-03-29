@@ -8,7 +8,7 @@ class DictionaryTest < Minitest::Test
   include Spout::Tests
 
   # This line provides access to @variables, @forms, and @domains iterators
-  # iterators that can be used to write custom tests
+  # that can be used to write custom tests.
   include Spout::Helpers::Iterators
 
   # Example 1: Create custom tests to show that `integer` and `numeric`
