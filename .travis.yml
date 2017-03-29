@@ -2,7 +2,3 @@ sudo: false
 language: ruby
 rvm:
   - 2.4.1
-notifications:
-  email:
-    - cailler.michael@gmail.com
-    - mwidholm@partners.org

@@ -3,8 +3,6 @@ HomePAP Data Dictionary
 
 [![Build Status](https://travis-ci.org/sleepepi/homepap-data-dictionary.svg)](https://travis-ci.org/sleepepi/homepap-data-dictionary)
 
-HomePAP variables and domains.
-
 ### Exports
 
 The HomePAP data dictionary can be exported to CSV by typing:
