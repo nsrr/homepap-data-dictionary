@@ -1,7 +1,7 @@
 {
   "id": "nsrrid",
-  "display_name": "NSRR Subject ID",
-  "description": "The NSRR subject identifer links the subject's data and files.",
+  "display_name": "NSRR Subject Identifier",
+  "description": "This identifer links the subject's data and files.",
   "type": "identifier",
   "commonly_used": true
 }

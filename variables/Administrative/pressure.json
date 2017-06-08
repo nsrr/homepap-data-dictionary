@@ -3,5 +3,5 @@
   "display_name": "Optimal titration pressure",
   "description": "",
   "type": "integer",
-  "units": "days since enrollment"
+  "units": "centimeters of water"
 }

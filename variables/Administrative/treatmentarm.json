@@ -1,6 +1,6 @@
 {
   "id": "treatmentarm",
-  "display_name": "Treatment Arm",
+  "display_name": "Treatment arm",
   "description": "Subjects were randomized to a treatment arm (i.e. diagnostic study type) at the end of the Baseline Visit.",
   "type": "choices",
   "domain": "treatmentarm",

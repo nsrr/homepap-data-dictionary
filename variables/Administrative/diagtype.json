@@ -1,6 +1,6 @@
 {
   "id": "diagtype",
-  "display_name": "Diagnostic type used to determine AHI",
+  "display_name": "Diagnostic type used to determine Apnea-Hypopnea Index (AHI)",
   "description": "",
   "type": "choices",
   "domain": "diagtype"
