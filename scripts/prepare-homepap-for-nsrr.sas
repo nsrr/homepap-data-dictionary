@@ -21,7 +21,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.1.0.beta5;
+  %let version = 0.1.0.beta6;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
@@ -158,48 +158,48 @@
     format pctsa90p_d pctsa90p_t 8.1;
 
     *only keep subset of variables;
-    keep 
+    keep
       /* administrative */
-      studyid visit treatmentarm age gender race3 ethnicity 
+      studyid visit treatmentarm age gender race3 ethnicity
 
       /* anthropometry */
-      heightcm weightkg bmi neckcm waistcm systolic diastolic 
+      heightcm weightkg bmi neckcm waistcm systolic diastolic
 
       /* calgary */
-      cal_total 
+      cal_total
 
       /* epworth, ess */
       esstotal
 
       /* fosq */
       fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
-      fosq_global 
+      fosq_global
 
       /* sf-36 */
-      PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm MH_norm agg_phys 
-      agg_ment sf36_PCS sf36_MCS 
+      PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm MH_norm agg_phys
+      agg_ment sf36_PCS sf36_MCS
 
       /* medical history */
-      dxasth dxadhd dxca dxcatyp dxchf dxchd dxdep dxdiab dxemph dxgerd dxhay 
+      dxasth dxadhd dxca dxcatyp dxchf dxchd dxdep dxdiab dxemph dxgerd dxhay
       dxhich dxhtn dxhyperthy dxhypothy dxkidney dxliver dxplhtn dxseiz dxstroke
 
       /* psg - full */
-      slpprdp slpeffp TMSTG1P TMSTG2P TMSTG34P TMREMP avgsao2 
+      slpprdp slpeffp TMSTG1P TMSTG2P TMSTG34P TMREMP avgsao2
       PCTSA90H AVGHR ahi_full
 
       /* psg - split, diagnostic */
-      SLPPRD_D slpeff_d PCTSTG1_D PCTSTG2_D PCTSTG34_D PCTREM_D AVGSAO2_D 
+      SLPPRD_D slpeff_d PCTSTG1_D PCTSTG2_D PCTSTG34_D PCTREM_D AVGSAO2_D
       pctsa90p_d AVGHR_D ahi_d
 
       /* psg - split, treatment */
-      SLPPRD_T slpeff_t PCTSTG1_T PCTSTG2_T PCTSTG34_T PCTREM_T AVGSAO2_T 
+      SLPPRD_T slpeff_t PCTSTG1_T PCTSTG2_T PCTSTG34_T PCTREM_T AVGSAO2_T
       pctsa90p_t AVGHR_T ahi_t
 
       /* embletta */
       index_time aphypi avgsat satlt90p avgbpn
 
       /* analysis indicators */
-      pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible 
+      pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible
       titrated acceptance completedm1 completedm3 completedm1m3 ;
   run;
 
