@@ -1,7 +1,7 @@
 {
   "id": "fosq_global",
   "display_name": "FOSQ: Global Score",
-  "description": "Mean of the subscales multiplied by five (5).",
+  "description": "Mean of the subscales multiplied by five (5) from the Functional Outcomes of Sleep Questionnaire (FOSQ).",
   "type": "numeric",
   "units": "",
   "commonly_used": true

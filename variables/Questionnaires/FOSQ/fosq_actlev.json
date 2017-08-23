@@ -1,7 +1,7 @@
 {
   "id": "fosq_actlev",
   "display_name": "FOSQ: Activity Level Score",
-  "description": "Mean of items 5, 14-16, and 22-26.",
+  "description": "Mean of items 5, 14-16, and 22-26 from the Functional Outcomes of Sleep Questionnaire (FOSQ).",
   "type": "numeric",
   "units": ""
 }

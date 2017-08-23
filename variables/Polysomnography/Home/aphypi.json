@@ -1,6 +1,6 @@
 {
   "id": "aphypi",
-  "display_name": "Apnea-Hypopnea Index",
+  "display_name": "Apnea-Hypopnea Index (home test)",
   "description": "",
   "type": "numeric",
   "units": "events per hour",

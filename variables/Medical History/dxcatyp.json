@@ -1,6 +1,6 @@
 {
   "id": "dxcatyp",
-  "display_name": "Cancer type",
+  "display_name": "If diagnosed with cancer: Cancer type",
   "description": "",
   "type": "string"
 }

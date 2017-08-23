@@ -1,7 +1,7 @@
 {
   "id": "fosq_genprd",
   "display_name": "FOSQ: General Productivity Score",
-  "description": "Mean of items 1-4 and 8-11.",
+  "description": "Mean of items 1-4 and 8-11 from the Functional Outcomes of Sleep Questionnaire (FOSQ).",
   "type": "numeric",
   "units": ""
 }

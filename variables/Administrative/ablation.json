@@ -1,6 +1,6 @@
 {
   "id": "ablation",
-  "display_name": "Ablation at optimal pressure (AHI < 10)",
+  "display_name": "Ablation at optimal pressure (Apnea-Hypopnea Index (AHI) < 10)",
   "description": "",
   "type": "choices",
   "domain": "noyes"

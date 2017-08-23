@@ -1,7 +1,7 @@
 {
   "id": "fosq_vigiln",
   "display_name": "FOSQ: Vigilance Score",
-  "description": "Mean of items 6-7 and 17-21.",
+  "description": "Mean of items 6-7 and 17-21 from the Functional Outcomes of Sleep Questionnaire (FOSQ).",
   "type": "numeric",
   "units": ""
 }

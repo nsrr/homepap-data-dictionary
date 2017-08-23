@@ -1,7 +1,7 @@
 {
   "id": "cal_total",
   "display_name": "Calgary: Total Calgary SAQLI Score",
-  "description": "",
+  "description": "Derived from the Calgary Sleep Apnea Quality of Life Index (SAQLI).",
   "type": "numeric",
   "units": "",
   "commonly_used": true

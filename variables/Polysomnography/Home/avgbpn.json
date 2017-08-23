@@ -1,6 +1,6 @@
 {
   "id": "avgbpn",
-  "display_name": "Average heart rate",
+  "display_name": "Average heart rate  (home test)",
   "description": "",
   "type": "numeric",
   "units": "beats per minute",
