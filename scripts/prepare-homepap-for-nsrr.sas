@@ -1,5 +1,12 @@
 *******************************************************************************;
-/* prepare-homepap-for-nsrr.sas */
+* Program           : prepare-homepap-for-nsrr.sas
+* Project           : National Sleep Research Resource (sleepdata.org)
+* Author            : Michael Rueschman (mnr)
+* Date Created      : 20170823
+* Purpose           : Prepare HomePAP data for posting on NSRR.
+* Revision History  :
+*   Date      Author    Revision
+*   20170823  mnr       Add header to SAS script
 *******************************************************************************;
 
 *******************************************************************************;
