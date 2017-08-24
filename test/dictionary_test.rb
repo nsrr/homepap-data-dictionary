@@ -14,7 +14,7 @@ class DictionaryTest < Minitest::Test
   # Example 1: Create custom tests to show that `integer` and `numeric`
   # variables have a valid unit type.
   VALID_UNITS = [
-    ' ', '', 'beats per minute', 'percent', 'events per hour',
+    nil, ' ', '', 'beats per minute', 'percent', 'events per hour',
     'kilograms per meters squared', 'kilograms', 'days since enrollment',
     'centimeters', 'millimeters of mercury', 'times', 'movements', 'bpm',
     'cmH2O', 'nights', '% of days', 'days', 'liters/minute', 'minutes', 'cm',
