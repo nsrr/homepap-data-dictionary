@@ -2,5 +2,8 @@
   "id": "fosq_vigiln",
   "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): Vigilance Score",
   "description": "Mean of items 6-7 and 17-21.",
-  "type": "numeric"
+  "type": "numeric",
+  "forms": [
+    "homepap_functional_outcomes_of_sleep_questionnaire"
+  ]
 }
