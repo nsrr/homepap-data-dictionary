@@ -4,5 +4,9 @@
   "description": "Average of the 2nd and 3rd resting systolic blood pressure readings.",
   "type": "numeric",
   "units": "millimeters of mercury",
+  "labels": [
+    "mmhg",
+    "bp"
+  ],
   "commonly_used": true
 }

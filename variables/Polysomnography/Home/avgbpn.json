@@ -4,5 +4,11 @@
   "description": "",
   "type": "numeric",
   "units": "beats per minute",
+  "labels": [
+    "hr",
+    "bpm",
+    "embletta",
+    "psg"
+  ],
   "commonly_used": true
 }

@@ -4,5 +4,10 @@
   "description": "This time period is used to calculate indices and other averages.",
   "type": "numeric",
   "units": "minutes",
+  "labels": [
+    "trt",
+    "embletta",
+    "psg"
+  ],
   "commonly_used": true
 }

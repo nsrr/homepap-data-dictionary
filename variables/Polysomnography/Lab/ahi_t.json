@@ -1,12 +1,12 @@
 {
   "id": "ahi_t",
-  "display_name": "Apnea-Hypopnea Index (split-night, treatment)",
+  "display_name": "Apnea-Hypopnea Index (AHI) (split-night, treatment)",
   "description": "",
   "type": "numeric",
   "units": "events per hour",
-  "commonly_used": true,
   "labels": [
-    "ahi",
-    "rdi"
-  ]
+    "rdi",
+    "psg"
+  ],
+  "commonly_used": true
 }

@@ -4,5 +4,9 @@
   "description": "",
   "type": "numeric",
   "units": "beats per minute",
+  "labels": [
+    "bpm",
+    "psg"
+  ],
   "commonly_used": true
 }

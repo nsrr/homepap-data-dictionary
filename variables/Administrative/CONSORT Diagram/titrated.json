@@ -3,5 +3,11 @@
   "display_name": "Titrated for optimal pressure",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "labels": [
+    "cpap",
+    "apap",
+    "cm",
+    "h20"
+  ]
 }

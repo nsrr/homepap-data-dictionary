@@ -1,8 +1,7 @@
 {
   "id": "esstotal",
-  "display_name": "ESS: Total Score",
-  "description": "Sum of eight (8) individual items from the Epworth Sleepiness Scale (ESS).",
+  "display_name": "Epworth Sleepiness Scale (ESS): Total Score",
+  "description": "Sum of eight (8) individual items",
   "type": "integer",
-  "units": "",
   "commonly_used": true
 }

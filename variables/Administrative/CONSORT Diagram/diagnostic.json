@@ -3,5 +3,9 @@
   "display_name": "Received diagnostic sleep study",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "labels": [
+    "psg",
+    "hsat"
+  ]
 }

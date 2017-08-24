@@ -1,12 +1,13 @@
 {
   "id": "aphypi",
-  "display_name": "Apnea-Hypopnea Index (home test)",
+  "display_name": "Apnea-Hypopnea Index (AHI) (home test)",
   "description": "",
   "type": "numeric",
   "units": "events per hour",
-  "commonly_used": true,
   "labels": [
-    "ahi",
-    "rdi"
-  ]
+    "rdi",
+    "embletta",
+    "psg"
+  ],
+  "commonly_used": true
 }

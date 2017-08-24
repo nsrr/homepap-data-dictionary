@@ -4,5 +4,10 @@
   "description": "",
   "type": "numeric",
   "units": "percent",
+  "labels": [
+    "oximetry",
+    "%",
+    "psg"
+  ],
   "commonly_used": true
 }

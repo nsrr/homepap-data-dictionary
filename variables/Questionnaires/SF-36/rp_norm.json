@@ -1,7 +1,10 @@
 {
   "id": "rp_norm",
-  "display_name": "SF-36: Role-Physical Norm Score",
-  "description": "Derived from the Short Form (36) Health Survey, a patient-reported survey of patient health.",
+  "display_name": "Short Form (36) Health Survey (SF-36): Role-Physical Norm Score",
+  "description": "Derived from the Short Form (36) Health Survey (SF-36), a patient-reported survey of patient health.",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "qol",
+    "quality of life"
+  ]
 }

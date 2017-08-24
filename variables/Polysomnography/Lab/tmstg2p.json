@@ -3,5 +3,11 @@
   "display_name": "Portion of sleep time spent in Stage 2 (full-night)",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "%",
+    "nrem",
+    "non-rapid eye movement sleep",
+    "psg"
+  ]
 }

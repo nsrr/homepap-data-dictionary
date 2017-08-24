@@ -1,8 +1,11 @@
 {
   "id": "avgpapuse",
-  "display_name": "Average CPAP use per night",
-  "description": "Computed as the total time of continuous positive airway pressure (CPAP) use divided by the total number of days in the interval. Follow-up periods of 30 days were used at Month 1 and Month 3.",
+  "display_name": "Average Continuous Positive Airway Pressure (CPAP) use per night",
+  "description": "Computed as the total time of Continuous Positive Airway Pressure (CPAP) use divided by the total number of days in the interval. Follow-up periods of 30 days were used at Month 1 and Month 3.",
   "type": "numeric",
   "units": "minutes",
+  "labels": [
+    "compliance"
+  ],
   "commonly_used": true
 }

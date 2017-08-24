@@ -4,5 +4,8 @@
   "description": "The age of the subject at the time of the baseline visit and randomization.",
   "type": "integer",
   "units": "years",
+  "labels": [
+    "yrs"
+  ],
   "commonly_used": true
 }

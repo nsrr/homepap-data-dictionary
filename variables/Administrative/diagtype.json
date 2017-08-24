@@ -3,5 +3,15 @@
   "display_name": "Diagnostic type used to determine Apnea-Hypopnea Index (AHI)",
   "description": "",
   "type": "choices",
-  "domain": "diagtype"
+  "domain": "diagtype",
+  "labels": [
+    "lab",
+    "home",
+    "hsat",
+    "psg",
+    "full",
+    "split",
+    "embletta",
+    "psg"
+  ]
 }

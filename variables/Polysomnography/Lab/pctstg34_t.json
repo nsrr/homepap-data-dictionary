@@ -3,5 +3,14 @@
   "display_name": "Portion of sleep time spent in Stage 3/4 (split-night, treatment)",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "%",
+    "nrem",
+    "non-rapid eye movement sleep",
+    "deep sleep",
+    "sws",
+    "slow wave",
+    "psg"
+  ]
 }

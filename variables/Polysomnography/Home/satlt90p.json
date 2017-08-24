@@ -3,5 +3,11 @@
   "display_name": "Portion of sleep time spent with oxygen saturation less than 90% (home test)",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "sao2",
+    "oximetry",
+    "embletta",
+    "psg"
+  ]
 }

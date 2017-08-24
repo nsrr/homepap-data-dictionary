@@ -1,6 +1,6 @@
 {
   "id": "acceptance",
-  "display_name": "Accepted APAP equipment (Has CPAP prescription)",
+  "display_name": "Accepted Automatic Positive Airway Pressure (APAP) equipment (Has Continuous Positive Airway Pressure (CPAP) prescription)",
   "description": "",
   "type": "choices",
   "domain": "noyes"

@@ -3,5 +3,11 @@
   "display_name": "Optimal titration pressure",
   "description": "",
   "type": "integer",
-  "units": "centimeters of water"
+  "units": "centimeters of water",
+  "labels": [
+    "cm",
+    "h20",
+    "cpap",
+    "apap"
+  ]
 }

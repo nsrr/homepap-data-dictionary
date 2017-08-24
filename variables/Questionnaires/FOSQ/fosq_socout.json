@@ -1,7 +1,6 @@
 {
   "id": "fosq_socout",
-  "display_name": "FOSQ: Social Outcome Score",
-  "description": "Mean of items 12-13 from the Functional Outcomes of Sleep Questionnaire (FOSQ).",
-  "type": "numeric",
-  "units": ""
+  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): Social Outcome Score",
+  "description": "Mean of items 12-13.",
+  "type": "numeric"
 }

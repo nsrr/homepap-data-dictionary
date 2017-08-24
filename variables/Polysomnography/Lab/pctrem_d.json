@@ -1,7 +1,11 @@
 {
   "id": "pctrem_d",
-  "display_name": "Portion of sleep time spent in REM (split-night, diagnostic)",
+  "display_name": "Portion of sleep time spent in rapid eye movement sleep (REM) (split-night, diagnostic)",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "%",
+    "psg"
+  ]
 }
