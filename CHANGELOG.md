@@ -1,4 +1,4 @@
-## 0.1.1
+## 0.1.1 (May 14, 2019)
 
 - Add Eligibility Form and link to gender, race, and ethnicity variables
 
