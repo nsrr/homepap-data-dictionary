@@ -1,5 +1,9 @@
 ## 0.1.1
 
+- **Gem Changes**
+  - Updated to spout 1.0.0
+  - Updated to Ruby 2.6.1
+
 ## 0.1.0 (August 28, 2017)
 
 - Create baseline, month1, and month3 datasets from key analytic datasets
