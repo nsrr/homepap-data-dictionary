@@ -1,5 +1,7 @@
 ## 0.1.1
 
+- Add Eligibility Form and link to gender, race, and ethnicity variables
+
 - **Gem Changes**
   - Updated to spout 1.0.0
   - Updated to Ruby 2.6.1

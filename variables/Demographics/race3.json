@@ -4,5 +4,8 @@
   "description": "Self-reported race collapsed into three (3) categories.",
   "type": "choices",
   "domain": "race3",
-  "commonly_used": true
+  "commonly_used": true,
+  "forms": [
+    "homepap_eligibility"
+  ]
 }
