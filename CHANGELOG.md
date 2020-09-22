@@ -1,5 +1,7 @@
 ## 0.1.2
 
+- Remove extraneous label causing variable display issue
+
 ## 0.1.1 (May 14, 2019)
 
 - Add Eligibility Form and link to gender, race, and ethnicity variables
