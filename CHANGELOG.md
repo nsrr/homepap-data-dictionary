@@ -1,4 +1,4 @@
-## 0.1.2
+## 0.1.2 (September 22, 2020)
 
 - Remove extraneous label causing variable display issue
 
