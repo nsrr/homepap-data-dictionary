@@ -1,0 +1,77 @@
+[
+  {
+    "value": "aframerican",
+    "display_name": "aframerican",
+    "description": ""
+  },
+  {
+    "value": "aframerican othrace",
+    "display_name": "aframerican othrace",
+    "description": ""
+  },
+  {
+    "value": "amerindian aframerican",
+    "display_name": "amerindian aframerican",
+    "description": ""
+  },
+  {
+    "value": "amerindian asian",
+    "display_name": "amerindian asian",
+    "description": ""
+  },
+  {
+    "value": "amerindian hawaii white asian aframerican othrace",
+    "display_name": "amerindian hawaii white asian aframerican othrace",
+    "description": ""
+  },
+  {
+    "value": "amerindian white",
+    "display_name": "amerindian white",
+    "description": ""
+  },
+  {
+    "value": "amerindian white aframerican",
+    "display_name": "amerindian white aframerican",
+    "description": ""
+  },
+  {
+    "value": "asian",
+    "display_name": "asian",
+    "description": ""
+  },
+  {
+    "value": "hawaii",
+    "display_name": "hawaii",
+    "description": ""
+  },
+  {
+    "value": "hawaii white",
+    "display_name": "hawaii white",
+    "description": ""
+  },
+  {
+    "value": "othrace",
+    "display_name": "othrace",
+    "description": ""
+  },
+  {
+    "value": "white",
+    "display_name": "white",
+    "description": ""
+  },
+  {
+    "value": "white aframerican",
+    "display_name": "white aframerican",
+    "description": ""
+  },
+  {
+    "value": "white asian aframerican othrace",
+    "display_name": "white asian aframerican othrace",
+    "description": ""
+  },
+  {
+    "value": "white othrace",
+    "display_name": "white othrace",
+    "description": ""
+  }
+]

@@ -50,10 +50,15 @@
 
     *rename variables;
     rename random_assign = treatmentarm;
-
+	rename race = Race;
+	format Race $100.;
     *drop certain variables to avoid conflicts later;
-    drop sitread--driving race;
+    drop sitread--driving;
   run;
+
+proc freq data= hpapeligibilityscreening;
+table race_char;
+run;
 
   *sort by studyid to be like other datasets;
   proc sort data=hpapeligibilityscreening;
@@ -151,6 +156,7 @@
 
     if racetotal = 1 and white = 1 then race3 = 1;
     else if racetotal = 1 and aframerican = 1 then race3 = 2;
+	else if racetotal = 1 and aframerican = 1 then race3 = 2;
     else if racetotal > 0 or othrace = 1 then race3 = 3;
 
     *create diagnostic type from analysis dataset;
@@ -167,7 +173,8 @@
     *only keep subset of variables;
     keep
       /* administrative */
-      studyid visit treatmentarm age gender race3 ethnicity
+      studyid visit treatmentarm age gender race3 Race racetotal amerindian hawaii 
+      white asian aframerican othrace ethnicity
 
       /* anthropometry */
       heightcm weightkg bmi neckcm waistcm systolic diastolic
@@ -207,9 +214,19 @@
 
       /* analysis indicators */
       pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible
-      titrated acceptance completedm1 completedm3 completedm1m3 ;
+      titrated acceptance completedm1 completedm3 completedm1m3 
+
   run;
 
+      *checking race variable;
+proc freq data=homepapbaseline;
+table Race;
+run;
+
+  *checking race variable;
+proc freq data=homepapbaseline_nsrr;
+table race;
+run;
 
 *******************************************************************************;
 * create month 1 follow-up dataset ;
@@ -225,7 +242,7 @@
 
   data homepapmonth1;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 race
         ethnicity)
       hpapmeasm1
       homepaps.homepapcalgarymerge (where=(timepoint=5))
@@ -242,7 +259,8 @@
     visit = 2;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 ethnicity systolic diastolic cal_total
+    keep studyid visit treatmentarm age gender race3 race racetotal amerindian hawaii 
+      white asian aframerican othrace  ethnicity systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -267,7 +285,7 @@
 
   data homepapmonth3;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 race
         ethnicity)
       hpapmeasm3
       homepaps.homepapcalgarymerge (where=(timepoint=6))
@@ -284,7 +302,8 @@
     visit = 3;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 ethnicity weightkg bmi systolic diastolic cal_total
+    keep studyid visit treatmentarm age gender race3 race racetotal amerindian hawaii 
+      white asian aframerican othrace ethnicity weightkg bmi systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -332,6 +351,108 @@
     by nsrrid;
   run;
 
+
+*******************************************************************************;
+* create harmonized datasets ;
+*******************************************************************************;
+data homepap_baseline_harmonized;
+	set homepapbaseline_nsrr;
+*demographics
+*age;
+*use age;
+	format nsrr_age 8.2;
+ 	nsrr_age = age;
+
+*age_gt89;
+*use age;
+	format nsrr_age_gt89 $100.; 
+	if age gt 89 then nsrr_age_gt89='yes';
+	else if age le 89 then nsrr_age_gt89='no';
+
+*sex;
+*use gender;
+	format nsrr_sex $100.;
+    if gender = 1 then nsrr_sex='male';
+	else if gender = 0 then nsrr_sex='female';
+	else nsrr_sex = 'not reported';
+
+*race;
+*use racetotal,amerindian,hawaii,white,asian,aframerican,othrace ;
+	* racetotal = sum(amerindian,hawaii,white,asian,aframerican,othrace);
+    format nsrr_race $100.;
+	if racetotal = 1 and white = 1 then nsrr_race = 'white';
+    else if racetotal = 1 and amerindian = 1 then nsrr_race = 'american indian or alaska native';
+	else if racetotal = 1 and aframerican = 1 then nsrr_race = 'black or african american';
+	else if racetotal = 1 and asian = 1 then nsrr_race = 'asian';
+	else if racetotal = 1 and hawaii = 1 then nsrr_race = 'native hawaiian or other pacific islander';
+    else if racetotal > 0 or othrace = 1 then nsrr_race = 'multiple';
+	else  nsrr_race = 'not reported';
+
+*ethnicity;
+*use ethnicity;
+	format nsrr_ethnicity $100.;
+    if ethnicity = 1 then nsrr_ethnicity = 'hispanic or latino';
+    else if ethnicity = 2 then nsrr_ethnicity = 'not hispanic or latino';
+	else if ethnicity = . then nsrr_ethnicity = 'not reported';
+
+*anthropometry
+*bmi;
+*use bmi;
+	format nsrr_bmi 10.9;
+ 	nsrr_bmi = bmi;
+
+*clinical data/vital signs
+*bp_systolic;
+*use systolic;
+	format nsrr_bp_systolic 8.2;
+	nsrr_bp_systolic = systolic;
+
+*bp_diastolic;
+*use diastolic;
+	format nsrr_bp_diastolic 8.2;
+ 	nsrr_bp_diastolic = diastolic;
+
+*lifestyle and behavioral health
+*current_smoker;
+*ever_smoker;
+	*not available;
+
+	keep 
+		nsrrid
+		visit
+		nsrr_age
+		nsrr_age_gt89
+		nsrr_sex
+		nsrr_race
+		nsrr_ethnicity
+		nsrr_bp_systolic
+		nsrr_bp_diastolic
+		nsrr_bmi
+		;
+run;
+
+*******************************************************************************;
+* checking harmonized datasets ;
+*******************************************************************************;
+
+/* Checking for extreme values for continuous variables */
+
+proc means data=homepap_baseline_harmonized;
+VAR 	nsrr_age
+		nsrr_bmi
+		nsrr_bp_systolic
+		nsrr_bp_diastolic;
+run;
+
+/* Checking categorical variables */
+
+proc freq data=homepap_baseline_harmonized;
+table 	nsrr_age_gt89
+		nsrr_sex
+		nsrr_race
+		nsrr_ethnicity;
+run;
+
 *******************************************************************************;
 * make all variable names lowercase ;
 *******************************************************************************;
@@ -353,6 +474,7 @@
   %lowcase(homepapbaseline_nsrr);
   %lowcase(homepapmonth1_nsrr);
   %lowcase(homepapmonth3_nsrr);
+  %lowcase(homepap_baseline_harmonized);
 
 *******************************************************************************;
 * create permanent sas datasets ;
@@ -389,3 +511,11 @@
     dbms=csv
     replace;
   run;
+
+  proc export data=homepap_baseline_harmonized
+    outfile="&releasepath\&version\homepap-baseline-harmonized-&version..csv"
+    dbms=csv
+    replace;
+  run;
+
+
