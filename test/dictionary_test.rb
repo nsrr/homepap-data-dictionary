@@ -19,7 +19,7 @@ class DictionaryTest < Minitest::Test
     'centimeters', 'millimeters of mercury', 'times', 'movements', 'bpm',
     'cmH2O', 'nights', '% of days', 'days', 'liters/minute', 'minutes', 'cm',
     'events per hour', '%', 'years', 'hours', 'events', 'seconds', 'mmHG', 'kg',
-    'attempts', 'items', 'centimeters of water'
+    'attempts', 'items', 'centimeters of water', 'kilograms per square meter'
   ]
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
