@@ -380,8 +380,9 @@ data homepap_baseline_harmonized;
 	else if race7 = 'black or african american' then nsrr_race = 'black or african american';
 	else if race7 = 'asian' then nsrr_race = 'asian';
 	else if race7 = 'native hawaiian or other pacific islander' then nsrr_race = 'native hawaiian or other pacific islander';
+    else if race7 = 'other' then nsrr_race = 'other';
     else if race7 = 'multiple' then nsrr_race = 'multiple';
-	else race7  = 'not reported';
+	else nsrr_race  = 'not reported';
 
 *ethnicity;
 *use ethnicity;
