@@ -32,7 +32,6 @@
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
-
 *******************************************************************************;
 * create baseline dataset ;
 *******************************************************************************;
@@ -50,15 +49,10 @@
 
     *rename variables;
     rename random_assign = treatmentarm;
-	rename race = Race;
-	format Race $100.;
-    *drop certain variables to avoid conflicts later;
-    drop sitread--driving;
-  run;
 
-proc freq data= hpapeligibilityscreening;
-table race_char;
-run;
+    *drop certain variables to avoid conflicts later;
+    drop sitread--driving race;
+  run;
 
   *sort by studyid to be like other datasets;
   proc sort data=hpapeligibilityscreening;
@@ -156,8 +150,17 @@ run;
 
     if racetotal = 1 and white = 1 then race3 = 1;
     else if racetotal = 1 and aframerican = 1 then race3 = 2;
-	else if racetotal = 1 and aframerican = 1 then race3 = 2;
     else if racetotal > 0 or othrace = 1 then race3 = 3;
+
+    *create 7 category race variable. Categories from codebook (\\rfawin\BWH-SLEEPEPI-HOMEPAP\HomePAP Codebook 2009-06-24);
+	format race7 $100.;
+	if racetotal = 1 and white = 1 then race7 = 'white';
+    else if racetotal = 1 and amerindian = 1 then race7 = 'american indian or alaska native';
+	else if racetotal = 1 and aframerican = 1 then race7 = 'black or african american';
+	else if racetotal = 1 and asian = 1 then race7 = 'asian';
+	else if racetotal = 1 and hawaii = 1 then race7 = 'native hawaiian or other pacific islander';
+	else if racetotal = 1 and othrace = 1 then race7 = 'other';
+    else if racetotal > 1 then race7 = 'multiple';
 
     *create diagnostic type from analysis dataset;
     if ahisource = "EMB" then diagtype = 1;
@@ -173,8 +176,7 @@ run;
     *only keep subset of variables;
     keep
       /* administrative */
-      studyid visit treatmentarm age gender race3 Race racetotal amerindian hawaii 
-      white asian aframerican othrace ethnicity
+      studyid visit treatmentarm age gender race7 ethnicity
 
       /* anthropometry */
       heightcm weightkg bmi neckcm waistcm systolic diastolic
@@ -214,19 +216,15 @@ run;
 
       /* analysis indicators */
       pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible
-      titrated acceptance completedm1 completedm3 completedm1m3 
-
+      titrated acceptance completedm1 completedm3 completedm1m3 ;
   run;
 
-      *checking race variable;
-proc freq data=homepapbaseline;
-table Race;
-run;
-
+/*
   *checking race variable;
-proc freq data=homepapbaseline_nsrr;
-table race;
+proc freq data=homepapbaseline;
+table race7;
 run;
+*/
 
 *******************************************************************************;
 * create month 1 follow-up dataset ;
@@ -242,7 +240,7 @@ run;
 
   data homepapmonth1;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 race
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race7
         ethnicity)
       hpapmeasm1
       homepaps.homepapcalgarymerge (where=(timepoint=5))
@@ -259,8 +257,7 @@ run;
     visit = 2;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 race racetotal amerindian hawaii 
-      white asian aframerican othrace  ethnicity systolic diastolic cal_total
+    keep studyid visit treatmentarm age gender race7 ethnicity systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -284,8 +281,8 @@ run;
   run;
 
   data homepapmonth3;
-    length studyid visit treatmentarm age gender race3 ethnicity 8.;
-    merge homepapbaseline (keep=studyid visit treatmentarm age gender race3 race
+    length studyid visit treatmentarm age gender ethnicity 8.;
+    merge homepapbaseline (keep=studyid visit treatmentarm age gender race7
         ethnicity)
       hpapmeasm3
       homepaps.homepapcalgarymerge (where=(timepoint=6))
@@ -302,8 +299,7 @@ run;
     visit = 3;
 
     *only keep subset of variables;
-    keep studyid visit treatmentarm age gender race3 race racetotal amerindian hawaii 
-      white asian aframerican othrace ethnicity weightkg bmi systolic diastolic cal_total
+    keep studyid visit treatmentarm age gender race7 ethnicity weightkg bmi systolic diastolic cal_total
       esstotal fosq_genprd fosq_socout fosq_actlev fosq_vigiln fosq_sexual
       fosq_global PF_norm RP_norm BP_norm GH_norm VT_norm SF_norm RE_norm
       MH_norm agg_phys agg_ment sf36_PCS sf36_MCS avgpapuse;
@@ -377,16 +373,15 @@ data homepap_baseline_harmonized;
 	else nsrr_sex = 'not reported';
 
 *race;
-*use racetotal,amerindian,hawaii,white,asian,aframerican,othrace ;
-	* racetotal = sum(amerindian,hawaii,white,asian,aframerican,othrace);
+*race7 created above for homepapbaseline from racetotal and specific race variables;
     format nsrr_race $100.;
-	if racetotal = 1 and white = 1 then nsrr_race = 'white';
-    else if racetotal = 1 and amerindian = 1 then nsrr_race = 'american indian or alaska native';
-	else if racetotal = 1 and aframerican = 1 then nsrr_race = 'black or african american';
-	else if racetotal = 1 and asian = 1 then nsrr_race = 'asian';
-	else if racetotal = 1 and hawaii = 1 then nsrr_race = 'native hawaiian or other pacific islander';
-    else if racetotal > 0 or othrace = 1 then nsrr_race = 'multiple';
-	else  nsrr_race = 'not reported';
+	if race7 = 'white' then nsrr_race = 'white';
+    else if race7 = 'american indian or alaska native' then nsrr_race = 'american indian or alaska native';
+	else if race7 = 'black or african american' then nsrr_race = 'black or african american';
+	else if race7 = 'asian' then nsrr_race = 'asian';
+	else if race7 = 'native hawaiian or other pacific islander' then nsrr_race = 'native hawaiian or other pacific islander';
+    else if race7 = 'multiple' then nsrr_race = 'multiple';
+	else race7  = 'not reported';
 
 *ethnicity;
 *use ethnicity;

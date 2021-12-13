@@ -1,9 +1,9 @@
 {
-  "id": "race_char",
+  "id": "race7",
   "display_name": "Race",
   "description": "",
   "type": "choices",
-  "domain": "race3",
+  "domain": "race7",
   "commonly_used": true,
   "forms": [
     "homepap_eligibility"
