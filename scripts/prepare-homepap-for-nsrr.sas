@@ -119,6 +119,13 @@
     if emb_status = 1;
   run;
 
+/*
+  *checking race variable;
+proc freq data=hpapeligibilityscreening;
+table white aframerican hawaii asian amerindian othrace;
+run;
+*/
+
   *merge baseline data on studyid;
   data homepapbaseline;
     length studyid visit treatmentarm age gender race3 ethnicity 8.;
@@ -144,23 +151,33 @@
     age = (enroll_date - pmbs_dob) / 365;
     if age < 20 then age = incl1_age; /* pull from eligibility if dob is missing */
     format age 8.;
+	
+	*making new race with 7 categories. There is a race variable with 7 categories, but did not take into account ethncity, also unclear which race corresponded to which number;
+    if ethnicity = 1 and othrace = 1 then othrace = 0;
+    race_count = 0;
+    array elig_race(5) white aframerican hawaii asian amerindian;
+    do i = 1 to 5;
+      if elig_race(i) in (0,1) then race_count = race_count + elig_race(i);
+    end;
+    drop i;
 
+    if white = 1 and race_count = 1 then race7 = 1; *White;
+	if amerindian = 1 and race_count = 1 then race7 = 2; *American indian or Alaskan native;
+    if aframerican = 1 and race_count = 1 then race7 = 3; *Black or african american;
+    if asian = 1 and race_count = 1 then race7 = 4; *Asian;
+	if hawaii = 1 and race_count = 1 then race7 =5; *native hawaiian or other pacific islander;
+    if othrace = 1 and race_count = 0 then race7 = 6; *Other;
+	if race_count > 1 then race7 = 7;  *Multiple;
+    
+	/*
+	*Old race with 3 categories;
     *create race (categorical) variable;
     racetotal = sum(amerindian,hawaii,white,asian,aframerican,othrace);
 
     if racetotal = 1 and white = 1 then race3 = 1;
     else if racetotal = 1 and aframerican = 1 then race3 = 2;
     else if racetotal > 0 or othrace = 1 then race3 = 3;
-
-    *create 7 category race variable. Categories from codebook (\\rfawin\BWH-SLEEPEPI-HOMEPAP\HomePAP Codebook 2009-06-24);
-	format race7 $100.;
-	if racetotal = 1 and white = 1 then race7 = 'white';
-    else if racetotal = 1 and amerindian = 1 then race7 = 'american indian or alaska native';
-	else if racetotal = 1 and aframerican = 1 then race7 = 'black or african american';
-	else if racetotal = 1 and asian = 1 then race7 = 'asian';
-	else if racetotal = 1 and hawaii = 1 then race7 = 'native hawaiian or other pacific islander';
-	else if racetotal = 1 and othrace = 1 then race7 = 'other';
-    else if racetotal > 1 then race7 = 'multiple';
+	*/
 
     *create diagnostic type from analysis dataset;
     if ahisource = "EMB" then diagtype = 1;
@@ -375,13 +392,13 @@ data homepap_baseline_harmonized;
 *race;
 *race7 created above for homepapbaseline from racetotal and specific race variables;
     format nsrr_race $100.;
-	if race7 = 'white' then nsrr_race = 'white';
-    else if race7 = 'american indian or alaska native' then nsrr_race = 'american indian or alaska native';
-	else if race7 = 'black or african american' then nsrr_race = 'black or african american';
-	else if race7 = 'asian' then nsrr_race = 'asian';
-	else if race7 = 'native hawaiian or other pacific islander' then nsrr_race = 'native hawaiian or other pacific islander';
-    else if race7 = 'other' then nsrr_race = 'other';
-    else if race7 = 'multiple' then nsrr_race = 'multiple';
+	if race7 = 1 then nsrr_race = 'white';
+    else if race7 = 2 then nsrr_race = 'american indian or alaska native';
+	else if race7 = 3 then nsrr_race = 'black or african american';
+	else if race7 = 4 then nsrr_race = 'asian';
+	else if race7 = 5 then nsrr_race = 'native hawaiian or other pacific islander';
+    else if race7 = 6 then nsrr_race = 'other';
+    else if race7 = 7 then nsrr_race = 'multiple';
 	else nsrr_race  = 'not reported';
 
 *ethnicity;
