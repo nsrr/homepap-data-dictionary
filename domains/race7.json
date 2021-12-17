@@ -26,12 +26,12 @@
   },
   {
     "value": "6",
-    "display_name": "multiple",
+    "display_name": "other",
     "description": ""
   },
   {
     "value": "7",
-    "display_name": "other",
+    "display_name": "multiple",
     "description": ""
   }
 ]
