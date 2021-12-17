@@ -1,36 +1,36 @@
 [
   {
-    "value": "white",
+    "value": "1",
     "display_name": "white",
     "description": ""
   },
   {
-    "value": "american indian or alaska native",
+    "value": "2",
     "display_name": "american indian or alaska native",
     "description": ""
   },
   {
-    "value": "black or african american",
+    "value":"3",
     "display_name": "black or african american",
     "description": ""
   },
   {
-    "value": "asian",
+    "value": "4",
     "display_name": "asian",
     "description": ""
   },
   {
-    "value": "native hawaiian or other pacific islander",
+    "value": "5",
     "display_name": "native hawaiian or other pacific islander",
     "description": ""
   },
   {
-    "value": "multiple",
+    "value": "6",
     "display_name": "multiple",
     "description": ""
   },
   {
-    "value": "other",
+    "value": "7",
     "display_name": "other",
     "description": ""
   }

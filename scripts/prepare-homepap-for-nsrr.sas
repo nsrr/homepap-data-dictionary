@@ -237,6 +237,9 @@ run;
   run;
 
 /*
+  proc print data = homepapbaseline (obs=3);
+  var gender;
+  run;
   *checking race variable;
 proc freq data=homepapbaseline;
 table race7;
