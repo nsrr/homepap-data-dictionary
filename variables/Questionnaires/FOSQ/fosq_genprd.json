@@ -1,9 +1,0 @@
-{
-  "id": "fosq_genprd",
-  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): General Productivity Score",
-  "description": "Mean of items 1-4 and 8-11.",
-  "type": "numeric",
-  "forms": [
-    "homepap_functional_outcomes_of_sleep_questionnaire"
-  ]
-}

@@ -1,0 +1,14 @@
+{
+  "id": "sf36_pcs",
+  "display_name": "Short Form (36) Health Survey (SF-36): Physical component summary (standardized)",
+  "description": "Summary component score of physical health. [Taft C et al. 2001 (PubMED ID: 11763202)](https://pubmed.ncbi.nlm.nih.gov/11763202/)<br><br>[Search for all SF-36 variables within this dataset](https://sleepdata.org/datasets/homepap/variables?search=mossf36)",
+  "type": "numeric",
+  "labels": [
+    "mossf36_pcs",
+    "mossf36"
+  ],
+  "commonly_used": true,
+  "forms": [
+    "homepap_short_form_36"
+  ]
+}

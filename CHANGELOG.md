@@ -1,4 +1,11 @@
-## 0.2.0 (December, 2021)
+## 0.2.0 
+
+- Add the initial set of harmonized variables (nsrr_*)
+- Change labels for many variables
+- Add individual questionnaire items from the Epworth Sleepiness Scale (ESS)
+- The CSV datasets generated from a SAS export are located here:
+  - `\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases\0.2.0`
+
 
 ## 0.1.2 (September 22, 2020)
 

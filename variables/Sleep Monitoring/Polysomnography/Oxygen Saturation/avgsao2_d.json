@@ -1,0 +1,11 @@
+{
+  "id": "avgsao2_d",
+  "display_name": "Average oxygen saturation during sleep from type I polysomnography (split-night, diagnostic)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "avglvlsa_f1t1"
+  ],
+  "commonly_used": true
+}

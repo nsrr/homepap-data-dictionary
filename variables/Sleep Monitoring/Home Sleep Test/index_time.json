@@ -1,0 +1,12 @@
+{
+  "id": "index_time",
+  "display_name": "Total recording period from type III home sleep test",
+  "description": "Conventionally this variable would be called total recording time.<br><br>This time period is used to calculate indices and other averages.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "trt",
+    "ttlprdrd_f1t3"
+  ],
+  "commonly_used": true
+}

@@ -1,9 +1,0 @@
-{
-  "id": "fosq_socout",
-  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): Social Outcome Score",
-  "description": "Mean of items 12-13.",
-  "type": "numeric",
-  "forms": [
-    "homepap_functional_outcomes_of_sleep_questionnaire"
-  ]
-}

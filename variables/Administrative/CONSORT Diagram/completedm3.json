@@ -3,5 +3,8 @@
   "display_name": "Completed Month 3 Follow-up Visit",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "labels": [
+    "homepap_consort_diagram"
+  ]
 }

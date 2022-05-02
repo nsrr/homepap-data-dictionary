@@ -1,9 +1,0 @@
-{
-  "id": "fosq_actlev",
-  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): Activity Level Score",
-  "description": "Mean of items 5, 14-16, and 22-26.",
-  "type": "numeric",
-  "forms": [
-    "homepap_functional_outcomes_of_sleep_questionnaire"
-  ]
-}

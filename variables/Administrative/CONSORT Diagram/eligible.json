@@ -6,6 +6,7 @@
   "domain": "noyes",
   "labels": [
     "cpap",
-    "apap"
+    "apap",
+    "homepap_consort_diagram"
   ]
 }

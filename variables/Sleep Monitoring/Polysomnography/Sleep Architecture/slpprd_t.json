@@ -1,0 +1,11 @@
+{
+  "id": "slpprd_t",
+  "display_name": "Total sleep duration from type I polysomnography (split-night, treatment)",
+  "description": "Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, conventionally called total sleep time.<br><br>This time period is used to calculate indices and other averages.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "ttldursp_f1t1"
+  ],
+  "commonly_used": true
+}

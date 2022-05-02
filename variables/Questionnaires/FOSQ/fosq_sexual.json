@@ -1,9 +1,0 @@
-{
-  "id": "fosq_sexual",
-  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): Sexual Activity Score",
-  "description": "Mean of items 27-30.",
-  "type": "numeric",
-  "forms": [
-    "homepap_functional_outcomes_of_sleep_questionnaire"
-  ]
-}

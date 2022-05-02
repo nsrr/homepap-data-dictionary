@@ -1,0 +1,13 @@
+{
+  "id": "fosq_genprd",
+  "display_name": "Functional Outcomes of Sleep Questionnaire (FOSQ): General Productivity Score",
+  "description": "Subscore based on 8 items (mean of items 1-4 and 8-11) from Functional Outcomes of Sleep Questionnaire. A lower score suggests greater difficulty in general productivity. [Weaver et. al, 1997 (Pubmed ID: 9415942)](https://www.ncbi.nlm.nih.gov/pubmed/9415942)<br><br> [Search for all Functional Outcomes of Sleep variables within this dataset](https://sleepdata.org/datasets/homepap/variables?search=fosq)",
+  "type": "numeric",
+  "labels": [
+    "fosq_genproscore",
+    "fosq"
+  ],
+  "forms": [
+    "homepap_functional_outcomes_of_sleep_questionnaire"
+  ]
+}

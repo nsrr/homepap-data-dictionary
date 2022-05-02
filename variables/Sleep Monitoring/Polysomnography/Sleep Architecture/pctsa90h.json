@@ -1,0 +1,10 @@
+{
+  "id": "pctsa90h",
+  "display_name": "Percentage of total sleep duration with < 90% oxygen saturation from type I polysomnography (full-night)",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_salt90_f1t1"
+  ]
+}

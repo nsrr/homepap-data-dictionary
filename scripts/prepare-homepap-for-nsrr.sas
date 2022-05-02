@@ -433,6 +433,13 @@ data homepap_baseline_harmonized;
 *ever_smoker;
 	*not available;
 
+*polysomnography;
+  
+*nsrr_ahi_hp4u_aasm15;
+*use ahi;
+  format nsrr_ahi_hp4u_aasm15 8.2;
+  nsrr_ahi_hp4u_aasm15 = ahi;
+  
 	keep 
 		nsrrid
 		visit
@@ -444,6 +451,7 @@ data homepap_baseline_harmonized;
 		nsrr_bp_systolic
 		nsrr_bp_diastolic
 		nsrr_bmi
+		nsrr_ahi_hp4u_aasm15
 		;
 run;
 
@@ -457,7 +465,8 @@ proc means data=homepap_baseline_harmonized;
 VAR 	nsrr_age
 		nsrr_bmi
 		nsrr_bp_systolic
-		nsrr_bp_diastolic;
+		nsrr_bp_diastolic
+		nsrr_ahi_hp4u_aasm15;
 run;
 
 /* Checking categorical variables */

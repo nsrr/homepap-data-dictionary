@@ -1,6 +1,6 @@
 {
-  "id": "completedm1m3",
-  "display_name": "Completed Month 1 and Month 3 Follow-up Visits",
+  "id": "ahige15",
+  "display_name": "Apnea-Hypopnea Index (AHI) >= 15 on diagnostic sleep study",
   "description": "",
   "type": "choices",
   "domain": "noyes",

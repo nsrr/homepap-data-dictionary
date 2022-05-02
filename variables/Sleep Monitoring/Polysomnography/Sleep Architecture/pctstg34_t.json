@@ -1,0 +1,10 @@
+{
+  "id": "pctstg34_t",
+  "display_name": "Percentage of stage 3/4 sleep among total sleep duration from type I polysomnography (split-night, treatment)",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_s3_f1t1"
+  ]
+}

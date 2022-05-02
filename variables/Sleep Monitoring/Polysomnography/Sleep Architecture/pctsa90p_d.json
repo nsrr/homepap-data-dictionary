@@ -1,0 +1,10 @@
+{
+  "id": "pctsa90p_d",
+  "display_name": "Portion of sleep time spent with oxygen saturation less than 90% (split-night, diagnostic)",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_salt90_f1t1"
+  ]
+}

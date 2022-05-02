@@ -1,0 +1,13 @@
+{
+  "id": "agg_ment",
+  "display_name": "Short Form (36) Health Survey (SF-36): Aggregate Mental Score",
+  "description": "Summary component score of mental health. [Taft C et al. 2001 (PubMED ID: 11763202)](https://pubmed.ncbi.nlm.nih.gov/11763202/)<br><br>[Search for all SF-36 variables within this dataset](https://sleepdata.org/datasets/homepap/variables?search=mossf36)",
+  "type": "numeric",
+  "labels": [
+    "mossf36_mcs",
+    "mossf36"
+  ],
+  "forms": [
+    "homepap_short_form_36"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "avghr_t",
+  "display_name": "Average heart rate during sleep from type I polysomnography (split-night, treatment)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "labels": [
+    "avglvlhr_f1t1"
+  ],
+  "commonly_used": true
+}

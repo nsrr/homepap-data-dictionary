@@ -5,6 +5,7 @@
   "type": "choices",
   "domain": "noyes",
   "labels": [
-    "treatment"
+    "treatment",
+    "homepap_consort_diagram"
   ]
 }
