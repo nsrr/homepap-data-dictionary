@@ -180,9 +180,18 @@ run;
 	*/
 
     *create diagnostic type from analysis dataset;
-    if ahisource = "EMB" then diagtype = 1;
-    else if ahisource = "PSG" then diagtype = 2;
-    else if ahisource = "SPL" then diagtype = 3;
+    if ahisource = "EMB" then do;
+	diagtype = 1;
+	tst_modified = index_time;
+	end;
+	else if ahisource = "PSG" then do;
+	diagtype = 2;
+	tst_modified = slpprdp;
+	end;
+	else if ahisource = "SPL" then do;
+	diagtype = 3;
+	tst_modified = slpprd_d;
+	end;
 
     *for lab sleep studies, modify certain variables based on full/split night;
     if diagtype = 3 then slpprdp = .; /* use slpprd_d */
@@ -233,7 +242,7 @@ run;
 
       /* analysis indicators */
       pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible
-      titrated acceptance completedm1 completedm3 completedm1m3 ;
+      titrated acceptance completedm1 completedm3 completedm1m3 tst_modified;
   run;
 
 /*
@@ -440,6 +449,12 @@ data homepap_baseline_harmonized;
   format nsrr_ahi_hp4u_aasm15 8.2;
   nsrr_ahi_hp4u_aasm15 = ahi;
   
+*nsrr_ttldursp_f1;
+*use tst_modified;
+  format nsrr_ttldursp_f1 8.2;
+  nsrr_ttldursp_f1 = tst_modified;
+ 
+ 
 	keep 
 		nsrrid
 		visit
@@ -452,6 +467,7 @@ data homepap_baseline_harmonized;
 		nsrr_bp_diastolic
 		nsrr_bmi
 		nsrr_ahi_hp4u_aasm15
+		nsrr_ttldursp_f1
 		;
 run;
 
@@ -466,7 +482,8 @@ VAR 	nsrr_age
 		nsrr_bmi
 		nsrr_bp_systolic
 		nsrr_bp_diastolic
-		nsrr_ahi_hp4u_aasm15;
+		nsrr_ahi_hp4u_aasm15
+		nsrr_ttldursp_f1;
 run;
 
 /* Checking categorical variables */

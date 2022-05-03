@@ -1,0 +1,12 @@
+{
+  "id": "tst_modified",
+  "display_name": "Total sleep duration from type I polysomnography and type III home sleep test",
+  "description": "Composite total sleep duration based on the diagnostic sleep study and home sleep study. <br><br>Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, conventionally called total sleep time. For participants from the type III home sleep test, it is based on estimated sleep duration, which provides an approximation of total sleep duration (i.e. total sleep time) inferred from analysis of non-EEG channels [Zhao et al., 2017 (PMID:27707441)]( https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5181603/)<br><br>This time period is used to calculate indices and other averages.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "ttldursp_f1t1",
+    "ttldursp_f1t3"
+  ],
+  "commonly_used": true
+}
