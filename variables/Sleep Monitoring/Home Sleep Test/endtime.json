@@ -1,0 +1,6 @@
+{
+  "id": "endtime",
+  "display_name": "Clock time when the participant is out of bed or lights are on from type III home sleep apnea test",
+  "description": "The Analysis Stop Time from the Embletta Sleep Report.",
+  "type": "time"
+}

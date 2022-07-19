@@ -151,8 +151,8 @@ run;
     age = (enroll_date - pmbs_dob) / 365;
     if age < 20 then age = incl1_age; /* pull from eligibility if dob is missing */
     format age 8.;
-	
-	*making new race with 7 categories. There is a race variable with 7 categories, but did not take into account ethncity, also unclear which race corresponded to which number;
+  
+  *making new race with 7 categories. There is a race variable with 7 categories, but did not take into account ethncity, also unclear which race corresponded to which number;
     if ethnicity = 1 and othrace = 1 then othrace = 0;
     race_count = 0;
     array elig_race(5) white aframerican hawaii asian amerindian;
@@ -162,36 +162,36 @@ run;
     drop i;
 
     if white = 1 and race_count = 1 then race7 = 1; *White;
-	if amerindian = 1 and race_count = 1 then race7 = 2; *American indian or Alaskan native;
+  if amerindian = 1 and race_count = 1 then race7 = 2; *American indian or Alaskan native;
     if aframerican = 1 and race_count = 1 then race7 = 3; *Black or african american;
     if asian = 1 and race_count = 1 then race7 = 4; *Asian;
-	if hawaii = 1 and race_count = 1 then race7 =5; *native hawaiian or other pacific islander;
+  if hawaii = 1 and race_count = 1 then race7 =5; *native hawaiian or other pacific islander;
     if othrace = 1 and race_count = 0 then race7 = 6; *Other;
-	if race_count > 1 then race7 = 7;  *Multiple;
+  if race_count > 1 then race7 = 7;  *Multiple;
     
-	/*
-	*Old race with 3 categories;
+  /*
+  *Old race with 3 categories;
     *create race (categorical) variable;
     racetotal = sum(amerindian,hawaii,white,asian,aframerican,othrace);
 
     if racetotal = 1 and white = 1 then race3 = 1;
     else if racetotal = 1 and aframerican = 1 then race3 = 2;
     else if racetotal > 0 or othrace = 1 then race3 = 3;
-	*/
+  */
 
     *create diagnostic type from analysis dataset;
     if ahisource = "EMB" then do;
-	diagtype = 1;
-	tst_modified = index_time;
-	end;
-	else if ahisource = "PSG" then do;
-	diagtype = 2;
-	tst_modified = slpprdp;
-	end;
-	else if ahisource = "SPL" then do;
-	diagtype = 3;
-	tst_modified = slpprd_d;
-	end;
+  diagtype = 1;
+  tst_modified = index_time;
+  end;
+  else if ahisource = "PSG" then do;
+  diagtype = 2;
+  tst_modified = slpprdp;
+  end;
+  else if ahisource = "SPL" then do;
+  diagtype = 3;
+  tst_modified = slpprd_d;
+  end;
 
     *for lab sleep studies, modify certain variables based on full/split night;
     if diagtype = 3 then slpprdp = .; /* use slpprd_d */
@@ -227,7 +227,7 @@ run;
 
       /* psg - full */
       slpprdp slpeffp TMSTG1P TMSTG2P TMSTG34P TMREMP avgsao2
-      PCTSA90H AVGHR ahi_full
+      PCTSA90H AVGHR ahi_full STLOUTP STLONP
 
       /* psg - split, diagnostic */
       SLPPRD_D slpeff_d PCTSTG1_D PCTSTG2_D PCTSTG34_D PCTREM_D AVGSAO2_D
@@ -238,7 +238,7 @@ run;
       pctsa90p_t AVGHR_T ahi_t
 
       /* embletta */
-      index_time aphypi avgsat satlt90p avgbpn
+      index_time aphypi avgsat satlt90p avgbpn starttime endtime
 
       /* analysis indicators */
       pressure ablation ahi diagtype crossover ttt diagnostic ahige15 eligible
@@ -381,66 +381,66 @@ run;
 * create harmonized datasets ;
 *******************************************************************************;
 data homepap_baseline_harmonized;
-	set homepapbaseline_nsrr;
+  set homepapbaseline_nsrr;
 *demographics
 *age;
 *use age;
-	format nsrr_age 8.2;
- 	nsrr_age = age;
+  format nsrr_age 8.2;
+  nsrr_age = age;
 
 *age_gt89;
 *use age;
-	format nsrr_age_gt89 $100.; 
-	if age gt 89 then nsrr_age_gt89='yes';
-	else if age le 89 then nsrr_age_gt89='no';
+  format nsrr_age_gt89 $100.; 
+  if age gt 89 then nsrr_age_gt89='yes';
+  else if age le 89 then nsrr_age_gt89='no';
 
 *sex;
 *use gender;
-	format nsrr_sex $100.;
+  format nsrr_sex $100.;
     if gender = 1 then nsrr_sex='male';
-	else if gender = 0 then nsrr_sex='female';
-	else nsrr_sex = 'not reported';
+  else if gender = 0 then nsrr_sex='female';
+  else nsrr_sex = 'not reported';
 
 *race;
 *race7 created above for homepapbaseline from racetotal and specific race variables;
     format nsrr_race $100.;
-	if race7 = 1 then nsrr_race = 'white';
+  if race7 = 1 then nsrr_race = 'white';
     else if race7 = 2 then nsrr_race = 'american indian or alaska native';
-	else if race7 = 3 then nsrr_race = 'black or african american';
-	else if race7 = 4 then nsrr_race = 'asian';
-	else if race7 = 5 then nsrr_race = 'native hawaiian or other pacific islander';
+  else if race7 = 3 then nsrr_race = 'black or african american';
+  else if race7 = 4 then nsrr_race = 'asian';
+  else if race7 = 5 then nsrr_race = 'native hawaiian or other pacific islander';
     else if race7 = 6 then nsrr_race = 'other';
     else if race7 = 7 then nsrr_race = 'multiple';
-	else nsrr_race  = 'not reported';
+  else nsrr_race  = 'not reported';
 
 *ethnicity;
 *use ethnicity;
-	format nsrr_ethnicity $100.;
+  format nsrr_ethnicity $100.;
     if ethnicity = 1 then nsrr_ethnicity = 'hispanic or latino';
     else if ethnicity = 2 then nsrr_ethnicity = 'not hispanic or latino';
-	else if ethnicity = . then nsrr_ethnicity = 'not reported';
+  else if ethnicity = . then nsrr_ethnicity = 'not reported';
 
 *anthropometry
 *bmi;
 *use bmi;
-	format nsrr_bmi 10.9;
- 	nsrr_bmi = bmi;
+  format nsrr_bmi 10.9;
+  nsrr_bmi = bmi;
 
 *clinical data/vital signs
 *bp_systolic;
 *use systolic;
-	format nsrr_bp_systolic 8.2;
-	nsrr_bp_systolic = systolic;
+  format nsrr_bp_systolic 8.2;
+  nsrr_bp_systolic = systolic;
 
 *bp_diastolic;
 *use diastolic;
-	format nsrr_bp_diastolic 8.2;
- 	nsrr_bp_diastolic = diastolic;
+  format nsrr_bp_diastolic 8.2;
+  nsrr_bp_diastolic = diastolic;
 
 *lifestyle and behavioral health
 *current_smoker;
 *ever_smoker;
-	*not available;
+  *not available;
 
 *polysomnography;
   
@@ -455,20 +455,20 @@ data homepap_baseline_harmonized;
   nsrr_ttldursp_f1 = tst_modified;
  
  
-	keep 
-		nsrrid
-		visit
-		nsrr_age
-		nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity
-		nsrr_bp_systolic
-		nsrr_bp_diastolic
-		nsrr_bmi
-		nsrr_ahi_hp4u_aasm15
-		nsrr_ttldursp_f1
-		;
+  keep 
+    nsrrid
+    visit
+    nsrr_age
+    nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+    nsrr_bmi
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ttldursp_f1
+    ;
 run;
 
 *******************************************************************************;
@@ -478,21 +478,21 @@ run;
 /* Checking for extreme values for continuous variables */
 
 proc means data=homepap_baseline_harmonized;
-VAR 	nsrr_age
-		nsrr_bmi
-		nsrr_bp_systolic
-		nsrr_bp_diastolic
-		nsrr_ahi_hp4u_aasm15
-		nsrr_ttldursp_f1;
+VAR   nsrr_age
+    nsrr_bmi
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ttldursp_f1;
 run;
 
 /* Checking categorical variables */
 
 proc freq data=homepap_baseline_harmonized;
-table 	nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity;
+table   nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity;
 run;
 
 *******************************************************************************;
@@ -555,7 +555,7 @@ run;
   run;
 
   proc export data=homepap_baseline_harmonized
-    outfile="&releasepath\&version\homepap-baseline-harmonized-&version..csv"
+    outfile="&releasepath\&version\homepap-baseline-harmonized-dataset-&version..csv"
     dbms=csv
     replace;
   run;

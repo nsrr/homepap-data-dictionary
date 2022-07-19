@@ -3,9 +3,12 @@
 - Add the initial set of harmonized variables (nsrr_*)
 - Change labels for many variables
 - Add individual questionnaire items from the Epworth Sleepiness Scale (ESS)
+- Add lights out/on timing varibles for full-night PSG and home sleep tests
 - The CSV datasets generated from a SAS export are located here:
   - `\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases\0.2.0`
 
+- **Gem Changes**
+  - Updated to Ruby 3.0.2
 
 ## 0.1.2 (September 22, 2020)
 
