@@ -28,7 +28,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.2.0.pre;
+  %let version = 0.2.0;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;

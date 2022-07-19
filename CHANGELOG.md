@@ -1,4 +1,4 @@
-## 0.2.0 
+## 0.2.0 (July 19, 2022)
 
 - Add the initial set of harmonized variables (nsrr_*)
 - Change labels for many variables
