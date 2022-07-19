@@ -1,7 +1,7 @@
 HomePAP Data Dictionary
 =======================
 
-[![Build Status](https://travis-ci.com/nsrr/homepap-data-dictionary.svg)](https://travis-ci.org/nsrr/homepap-data-dictionary)
+[![Build Status](https://app.travis-ci.com/nsrr/homepap-data-dictionary.svg?branch=master)](https://app.travis-ci.com/nsrr/homepap-data-dictionary)
 
 ### Exports
 
