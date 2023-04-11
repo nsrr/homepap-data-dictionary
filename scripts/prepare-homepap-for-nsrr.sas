@@ -28,7 +28,7 @@
   libname homepapi "\\rfawin\bwh-sleepepi-homepap\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.2.0;
+  %let version = 0.3.0.pre;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\bwh-sleepepi-homepap\nsrr-prep\_releases;
@@ -453,8 +453,33 @@ data homepap_baseline_harmonized;
 *use tst_modified;
   format nsrr_ttldursp_f1 8.2;
   nsrr_ttldursp_f1 = tst_modified;
- 
- 
+
+
+*nsrr_ttleffsp_f1;
+*use slpeffp;
+  format nsrr_ttleffsp_f1 8.2;
+  nsrr_ttleffsp_f1 = slpeffp;
+  
+*nsrr_pctdursp_s1;
+*use tmstg1p;
+  format nsrr_pctdursp_s1 8.2;
+  nsrr_pctdursp_s1 = tmstg1p;
+  
+*nsrr_pctdursp_s2;
+*use tmstg2p;
+  format nsrr_pctdursp_s2 8.2;
+  nsrr_pctdursp_s2 = tmstg2p;
+
+*nsrr_pctdursp_s3;
+*use tmstg34p;
+  format nsrr_pctdursp_s3 8.2;
+  nsrr_pctdursp_s3 = tmstg34p;
+
+*nsrr_pctdursp_sr;
+*use tmremp;
+  format nsrr_pctdursp_sr 8.2;
+  nsrr_pctdursp_sr = tmremp; 
+
   keep 
     nsrrid
     visit
@@ -468,6 +493,11 @@ data homepap_baseline_harmonized;
     nsrr_bmi
     nsrr_ahi_hp4u_aasm15
     nsrr_ttldursp_f1
+	nsrr_ttleffsp_f1
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr
     ;
 run;
 
@@ -483,7 +513,12 @@ VAR   nsrr_age
     nsrr_bp_systolic
     nsrr_bp_diastolic
     nsrr_ahi_hp4u_aasm15
-    nsrr_ttldursp_f1;
+    nsrr_ttldursp_f1
+	nsrr_ttleffsp_f1
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr;
 run;
 
 /* Checking categorical variables */
