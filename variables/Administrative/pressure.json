@@ -3,7 +3,7 @@
   "display_name": "Optimal titration pressure",
   "description": "",
   "type": "integer",
-  "units": "centimeters of water",
+  "units": "centimeters of water (cmH2O)",
   "labels": [
     "cm",
     "h20",

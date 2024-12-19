@@ -3,5 +3,5 @@
   "display_name": "Time to treatment",
   "description": "The difference between the date device delivered and date of enrollment.",
   "type": "integer",
-  "units": "days since enrollment"
+  "units": "days from index date"
 }

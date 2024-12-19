@@ -3,7 +3,7 @@
   "display_name": "Total sleep duration from type I polysomnography (full-night)",
   "description": "Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, conventionally called total sleep time.<br><br>This time period is used to calculate indices and other averages.",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldursp_f1t1"
   ],

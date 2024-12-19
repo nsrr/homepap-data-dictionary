@@ -3,7 +3,7 @@
   "display_name": "Percent of total sleep duration in REM sleep from type I polysomnography (split-night, treatment)",
   "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "pctdursp_sr_f1t1"
   ]
