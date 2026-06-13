@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-06-13T17:58:55.815509Z",
+  "_captured_run_id": "r_019ec21df0007942a5b1715224d8b78c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 8 rows from DATALINES.",
+    "NOTE: Wrote elig (8 rows, 8 columns).",
+    "NOTE: Read 8 rows from elig.",
+    "NOTE: Wrote race (8 rows, 10 columns).",
+    "NOTE: PROC PRINT completed: 8 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

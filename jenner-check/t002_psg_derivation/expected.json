@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-06-13T17:58:55.791667Z",
+  "_captured_run_id": "r_019ec21de9e47eb2a175b0d8930a73d1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 6 rows from DATALINES.",
+    "NOTE: Wrote homepappsg (6 rows, 12 columns).",
+    "NOTE: Read 6 rows from homepappsg.",
+    "NOTE: Wrote hpappsg (3 rows, 16 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

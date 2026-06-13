@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-13T17:58:55.876190Z",
+  "_captured_run_id": "r_019ec21e04d67be3b29e607633f81290",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 6 rows from DATALINES.",
+    "NOTE: Wrote homepap_baseline_harmonized (6 rows, 6 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

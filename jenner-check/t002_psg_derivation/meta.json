@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_psg_derivation",
+  "source_file": "scripts/prepare-homepap-for-nsrr.sas",
+  "source_blob_sha": "92ba608dc325b12bec0883e814bcc8ce70679b6f",
+  "source_commit": "5266e5792dedb626ef818d47ab3c96b5f8710932",
+  "tier": "mock_source",
+  "notes": "hpappsg block: type-in filter, weighted avg sao2, dedup deletes; mock homepappsg via datalines."
+}

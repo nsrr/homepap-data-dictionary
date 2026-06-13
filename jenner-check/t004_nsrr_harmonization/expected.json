@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-06-13T17:58:55.848836Z",
+  "_captured_run_id": "r_019ec21df6b57481a388bf25e2af6ec1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 5 rows from DATALINES.",
+    "NOTE: Wrote homepapbaseline_nsrr (5 rows, 11 columns).",
+    "NOTE: Read 5 rows from homepapbaseline_nsrr.",
+    "NOTE: Wrote homepap_baseline_harmonized (5 rows, 12 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-13T17:58:56.929239Z",
+  "_captured_run_id": "r_019ec21e1da478d1a6a1b907b5ab90c4",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 4 rows from DATALINES.",
+    "NOTE: Wrote homepapbaseline_nsrr (4 rows, 8 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

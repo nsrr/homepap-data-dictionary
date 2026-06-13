@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_race7_array",
+  "source_file": "scripts/prepare-homepap-for-nsrr.sas",
+  "source_blob_sha": "92ba608dc325b12bec0883e814bcc8ce70679b6f",
+  "source_commit": "5266e5792dedb626ef818d47ab3c96b5f8710932",
+  "tier": "mock_source",
+  "notes": "race7 categorization: array elig_race(5) + do-loop count; mock eligibility flags via datalines."
+}
