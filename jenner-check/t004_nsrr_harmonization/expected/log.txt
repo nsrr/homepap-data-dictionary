@@ -1,0 +1,24 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA homepapbaseline_nsrr
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote homepapbaseline_nsrr (5 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA homepap_baseline_harmonized
+
+
+NOTE: Read 5 rows from homepapbaseline_nsrr.
+NOTE: Wrote homepap_baseline_harmonized (5 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=homepap_baseline_harmonized
+
+NOTE: PROC PRINT completed: 5 observations printed, 6 variables
